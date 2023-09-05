@@ -951,7 +951,7 @@
   (junction (at 107.95 76.2) (diameter 0) (color 0 0 0 0)
     (uuid 0326cfc7-f5aa-4d74-a741-68d7339a6846)
   )
-  (junction (at 182.88 85.09) (diameter 0) (color 0 0 0 0)
+  (junction (at 203.2 127) (diameter 0) (color 0 0 0 0)
     (uuid 05b85155-5e15-486d-a3ae-a2f2ffdc9980)
   )
   (junction (at 93.98 68.58) (diameter 0) (color 0 0 0 0)
@@ -963,7 +963,7 @@
   (junction (at 99.06 81.28) (diameter 0) (color 0 0 0 0)
     (uuid 40d0d56d-30b0-4e9d-8848-07867f034641)
   )
-  (junction (at 195.58 87.63) (diameter 0) (color 0 0 0 0)
+  (junction (at 215.9 129.54) (diameter 0) (color 0 0 0 0)
     (uuid 49ac8c8b-0163-459e-8ba8-241f1cd3a060)
   )
   (junction (at 63.5 113.03) (diameter 0) (color 0 0 0 0)
@@ -981,7 +981,7 @@
   (junction (at 76.2 113.03) (diameter 0) (color 0 0 0 0)
     (uuid ddd97d90-748d-41fa-b0e3-bdf73516075e)
   )
-  (junction (at 186.69 80.01) (diameter 0) (color 0 0 0 0)
+  (junction (at 207.01 121.92) (diameter 0) (color 0 0 0 0)
     (uuid faece46d-ae7d-4e1c-94cf-386d7e8964e8)
   )
 
@@ -992,11 +992,11 @@
     (stroke (width 0) (type default))
     (uuid 0185b2d9-d556-4f9b-8d38-b3bfc6c7bbf5)
   )
-  (wire (pts (xy 182.88 54.61) (xy 182.88 85.09))
+  (wire (pts (xy 203.2 96.52) (xy 203.2 127))
     (stroke (width 0) (type default))
     (uuid 090af0d8-6cac-4a86-8106-6c79a38d03f9)
   )
-  (wire (pts (xy 222.25 97.79) (xy 234.95 97.79))
+  (wire (pts (xy 242.57 139.7) (xy 255.27 139.7))
     (stroke (width 0) (type default))
     (uuid 099d2fdc-a97a-40e1-a3ea-80fa6da8bc17)
   )
@@ -1020,7 +1020,7 @@
     (stroke (width 0) (type default))
     (uuid 24b296b1-5dc2-429c-87fe-65e8263310f6)
   )
-  (wire (pts (xy 177.8 100.33) (xy 234.95 100.33))
+  (wire (pts (xy 198.12 142.24) (xy 255.27 142.24))
     (stroke (width 0) (type default))
     (uuid 29c406f2-08fb-4b2c-bbf1-85d07e7a39b3)
   )
@@ -1040,7 +1040,7 @@
     (stroke (width 0) (type default))
     (uuid 2eb91753-990f-4960-b681-967fdaad2bd0)
   )
-  (wire (pts (xy 205.74 43.18) (xy 209.55 43.18))
+  (wire (pts (xy 226.06 85.09) (xy 229.87 85.09))
     (stroke (width 0) (type default))
     (uuid 32fe13d7-179e-4f54-9895-2549c2fb509a)
   )
@@ -1060,7 +1060,7 @@
     (stroke (width 0) (type default))
     (uuid 375c168b-b9da-4053-9391-3bb26b70abfd)
   )
-  (wire (pts (xy 224.79 95.25) (xy 224.79 92.71))
+  (wire (pts (xy 245.11 137.16) (xy 245.11 134.62))
     (stroke (width 0) (type default))
     (uuid 3829422c-f30d-4a86-a264-5f725251ef9e)
   )
@@ -1072,7 +1072,7 @@
     (stroke (width 0) (type default))
     (uuid 3e3e3d0e-a224-4906-bf9a-c1d170833356)
   )
-  (wire (pts (xy 234.95 95.25) (xy 224.79 95.25))
+  (wire (pts (xy 255.27 137.16) (xy 245.11 137.16))
     (stroke (width 0) (type default))
     (uuid 3e87ced3-bb7c-4ea2-98d3-a7ee2f267088)
   )
@@ -1080,11 +1080,11 @@
     (stroke (width 0) (type default))
     (uuid 3ea95c36-f8ab-44e3-b265-325232345291)
   )
-  (wire (pts (xy 177.8 77.47) (xy 234.95 77.47))
+  (wire (pts (xy 198.12 119.38) (xy 255.27 119.38))
     (stroke (width 0) (type default))
     (uuid 3fc305a7-baf7-4481-937b-a7c0e6a497b1)
   )
-  (wire (pts (xy 177.8 95.25) (xy 222.25 95.25))
+  (wire (pts (xy 198.12 137.16) (xy 242.57 137.16))
     (stroke (width 0) (type default))
     (uuid 41dc3bbd-5449-4387-ab26-45f03b0e1ae3)
   )
@@ -1096,7 +1096,7 @@
     (stroke (width 0) (type default))
     (uuid 45de2bda-48e3-4d9c-8d23-eddcce43bf8b)
   )
-  (wire (pts (xy 177.8 87.63) (xy 195.58 87.63))
+  (wire (pts (xy 198.12 129.54) (xy 215.9 129.54))
     (stroke (width 0) (type default))
     (uuid 4807efe1-8388-4b62-8fc0-e7cefe7eefc1)
   )
@@ -1104,11 +1104,11 @@
     (stroke (width 0) (type default))
     (uuid 49f40176-453f-4154-ba34-b9ecf2e50c86)
   )
-  (wire (pts (xy 111.76 120.65) (xy 114.3 120.65))
+  (wire (pts (xy 111.76 111.76) (xy 114.3 111.76))
     (stroke (width 0) (type default))
     (uuid 4c02b448-2bfa-4f50-9098-2c6df79e0ab9)
   )
-  (wire (pts (xy 177.8 90.17) (xy 234.95 90.17))
+  (wire (pts (xy 198.12 132.08) (xy 255.27 132.08))
     (stroke (width 0) (type default))
     (uuid 4cddba11-d0a6-49a1-a356-46619e3bfbae)
   )
@@ -1120,7 +1120,7 @@
     (stroke (width 0) (type default))
     (uuid 56eae742-3958-456b-abc8-df162134f8da)
   )
-  (wire (pts (xy 177.8 107.95) (xy 234.95 107.95))
+  (wire (pts (xy 198.12 149.86) (xy 255.27 149.86))
     (stroke (width 0) (type default))
     (uuid 57a45bb9-8f43-4d01-aa71-909b292bd800)
   )
@@ -1140,7 +1140,7 @@
     (stroke (width 0) (type default))
     (uuid 699f4a13-7309-462d-b02e-027bf4b4dbcc)
   )
-  (wire (pts (xy 177.8 82.55) (xy 234.95 82.55))
+  (wire (pts (xy 198.12 124.46) (xy 255.27 124.46))
     (stroke (width 0) (type default))
     (uuid 6ac1948b-1665-40cd-9c7c-4aeaa4dbbb80)
   )
@@ -1156,7 +1156,7 @@
     (stroke (width 0) (type default))
     (uuid 6f3e7d34-8d96-4a95-86c3-c7ab05c8f887)
   )
-  (wire (pts (xy 182.88 85.09) (xy 234.95 85.09))
+  (wire (pts (xy 203.2 127) (xy 255.27 127))
     (stroke (width 0) (type default))
     (uuid 70b4a765-323d-42d5-8973-5fe7a529e520)
   )
@@ -1164,7 +1164,7 @@
     (stroke (width 0) (type default))
     (uuid 70c2a142-b2d9-4749-8ae8-0e2bef8903f6)
   )
-  (wire (pts (xy 186.69 80.01) (xy 234.95 80.01))
+  (wire (pts (xy 207.01 121.92) (xy 255.27 121.92))
     (stroke (width 0) (type default))
     (uuid 77e40d97-7dff-409c-b192-7cea68192bcf)
   )
@@ -1180,7 +1180,7 @@
     (stroke (width 0) (type default))
     (uuid 8371a4cf-916a-49e3-a10e-ea61c3559a86)
   )
-  (wire (pts (xy 222.25 95.25) (xy 222.25 97.79))
+  (wire (pts (xy 242.57 137.16) (xy 242.57 139.7))
     (stroke (width 0) (type default))
     (uuid 88622e5a-1bf6-4760-adab-b23fafe6a85a)
   )
@@ -1192,7 +1192,7 @@
     (stroke (width 0) (type default))
     (uuid 8a6515ad-b4f6-467e-ab9c-f48195234d5b)
   )
-  (wire (pts (xy 177.8 102.87) (xy 234.95 102.87))
+  (wire (pts (xy 198.12 144.78) (xy 255.27 144.78))
     (stroke (width 0) (type default))
     (uuid 8b6fb0a6-6a86-4164-a0fc-4cee3a68848b)
   )
@@ -1200,7 +1200,7 @@
     (stroke (width 0) (type default))
     (uuid 8d863442-e2f5-4439-902a-2a6d267385db)
   )
-  (wire (pts (xy 177.8 85.09) (xy 182.88 85.09))
+  (wire (pts (xy 198.12 127) (xy 203.2 127))
     (stroke (width 0) (type default))
     (uuid 8df8ad85-b5d7-45d3-a59b-79e11e788f61)
   )
@@ -1216,7 +1216,7 @@
     (stroke (width 0) (type default))
     (uuid 9be3937d-c53e-41ae-9169-865b48244609)
   )
-  (wire (pts (xy 177.8 105.41) (xy 234.95 105.41))
+  (wire (pts (xy 198.12 147.32) (xy 255.27 147.32))
     (stroke (width 0) (type default))
     (uuid a1bf661d-576b-4b92-a116-ae3f783639f7)
   )
@@ -1224,7 +1224,7 @@
     (stroke (width 0) (type default))
     (uuid a8a25aa1-40d1-49c7-973b-1474b04f0e52)
   )
-  (wire (pts (xy 177.8 92.71) (xy 224.79 92.71))
+  (wire (pts (xy 198.12 134.62) (xy 245.11 134.62))
     (stroke (width 0) (type default))
     (uuid acebaee5-e78b-4ea8-ad91-baef2513e3d0)
   )
@@ -1232,7 +1232,7 @@
     (stroke (width 0) (type default))
     (uuid b1462f36-2e56-4c7d-a4ea-649256bf436a)
   )
-  (wire (pts (xy 186.69 43.18) (xy 189.23 43.18))
+  (wire (pts (xy 207.01 85.09) (xy 209.55 85.09))
     (stroke (width 0) (type default))
     (uuid b147267d-c6d5-44f2-a113-6c239f8bc438)
   )
@@ -1252,7 +1252,7 @@
     (stroke (width 0) (type default))
     (uuid c55b1030-3225-4e95-afc4-e9e6b73f2948)
   )
-  (wire (pts (xy 195.58 87.63) (xy 234.95 87.63))
+  (wire (pts (xy 215.9 129.54) (xy 255.27 129.54))
     (stroke (width 0) (type default))
     (uuid cf772267-5f02-4d82-acb2-6bc180af6d04)
   )
@@ -1264,11 +1264,11 @@
     (stroke (width 0) (type default))
     (uuid d1d71d86-085f-46c9-95e2-8763dcea5b62)
   )
-  (wire (pts (xy 177.8 80.01) (xy 186.69 80.01))
+  (wire (pts (xy 198.12 121.92) (xy 207.01 121.92))
     (stroke (width 0) (type default))
     (uuid d414a3fe-2317-440a-9583-87844957824e)
   )
-  (wire (pts (xy 186.69 80.01) (xy 186.69 43.18))
+  (wire (pts (xy 207.01 121.92) (xy 207.01 85.09))
     (stroke (width 0) (type default))
     (uuid d78f351b-7fef-40f1-a6da-4932fd0e1524)
   )
@@ -1288,7 +1288,7 @@
     (stroke (width 0) (type default))
     (uuid f1cf29fc-6e1c-4c08-ae60-df2431bc2462)
   )
-  (wire (pts (xy 196.85 43.18) (xy 198.12 43.18))
+  (wire (pts (xy 217.17 85.09) (xy 218.44 85.09))
     (stroke (width 0) (type default))
     (uuid f86a6b65-3201-447d-aeed-bf01d15c9a6e)
   )
@@ -1296,28 +1296,28 @@
     (stroke (width 0) (type default))
     (uuid fca16a37-04e2-4675-8a54-44b107a8fdfa)
   )
-  (wire (pts (xy 195.58 54.61) (xy 195.58 87.63))
+  (wire (pts (xy 215.9 96.52) (xy 215.9 129.54))
     (stroke (width 0) (type default))
     (uuid fe90825f-9284-438c-8559-11752acc6988)
   )
 
-  (label "USB_P+" (at 195.58 54.61 90) (fields_autoplaced)
+  (label "USB_D+" (at 215.9 96.52 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 59e5ff92-85d8-4bc7-84a6-6509d1eb2afc)
+    (uuid 095e19d1-5d92-4b9f-8c91-e1f31eadcb78)
   )
-  (label "USB_N-" (at 120.65 76.2 0) (fields_autoplaced)
+  (label "USB_D-" (at 120.65 76.2 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 72031e87-a4ef-46d3-ba7a-642ca7662511)
   )
-  (label "USB_N-" (at 182.88 54.61 90) (fields_autoplaced)
+  (label "USB_D-" (at 203.2 96.52 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 95ead69f-ce72-4e14-a151-e48d6d91af07)
+    (uuid ac576807-ec3b-4cfa-bfd3-2d1378b04066)
   )
-  (label "USB_P+" (at 120.65 81.28 0) (fields_autoplaced)
+  (label "USB_D+" (at 120.65 81.28 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ae06df5a-cba7-4f65-a60c-f04cec517d79)
   )
-  (label "VIN" (at 111.76 120.65 180) (fields_autoplaced)
+  (label "VIN" (at 111.76 111.76 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d59a25a6-756b-4eba-b9d2-5a24c4c5ec15)
   )
@@ -1343,7 +1343,7 @@
     )
     (pin "1" (uuid b16423bc-25b3-4cfa-b496-3c91956f3ee3))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "#PWR013") (unit 1)
         )
@@ -1368,7 +1368,7 @@
     )
     (pin "1" (uuid a5aa685a-ec05-47ae-af76-6743a1e311fb))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "#PWR09") (unit 1)
         )
@@ -1376,19 +1376,19 @@
     )
   )
 
-  (symbol (lib_id "MCU_Microchip_ATtiny:ATtiny84-20SS") (at 162.56 92.71 0) (unit 1)
+  (symbol (lib_id "MCU_Microchip_ATtiny:ATtiny84-20SS") (at 182.88 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 073f945a-56bc-4b40-8ce5-6a8802751413)
-    (property "Reference" "U1" (at 148.59 91.44 0)
+    (property "Reference" "U1" (at 168.91 133.35 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "ATtiny84-20SS" (at 148.59 93.98 0)
+    (property "Value" "ATtiny84-20SS" (at 168.91 135.89 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 162.56 92.71 0)
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 182.88 134.62 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8006.pdf" (at 162.56 92.71 0)
+    (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8006.pdf" (at 182.88 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 12bf99c0-09db-46e5-b081-be0b8a32ef8c))
@@ -1406,7 +1406,7 @@
     (pin "8" (uuid bbb0594d-bc47-4a03-aa40-9a55be904964))
     (pin "9" (uuid 89941178-ad16-47e3-a221-fe37094e3d20))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "U1") (unit 1)
         )
@@ -1431,7 +1431,7 @@
     )
     (pin "1" (uuid 46fd9ca5-5cf0-45fb-8dff-91e4c04cdd89))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "#PWR019") (unit 1)
         )
@@ -1457,7 +1457,7 @@
     (pin "1" (uuid 28dc146e-948d-4fe8-bd51-a24a69e2d5ca))
     (pin "2" (uuid 8abffa40-350e-4a10-a761-6c0e4af0bc24))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "R7") (unit 1)
         )
@@ -1465,13 +1465,13 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 99.06 52.07 0) (unit 1)
+  (symbol (lib_id "Device:D") (at 99.06 52.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1369108e-acc0-43cf-bda7-a0711a657220)
-    (property "Reference" "D5" (at 99.06 45.72 0)
+    (property "Reference" "D5" (at 99.06 46.6557 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "D" (at 99.06 48.26 0)
+    (property "Value" "D" (at 99.06 49.0799 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Diode_SMD:D_0805_2012Metric" (at 99.06 52.07 0)
@@ -1489,7 +1489,7 @@
     (pin "1" (uuid 5b275bb9-4639-429d-a8b2-8196a493cc45))
     (pin "2" (uuid b7a9a24f-fd2e-4174-a980-da43d6ef31a7))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "D5") (unit 1)
         )
@@ -1514,7 +1514,7 @@
     )
     (pin "1" (uuid 5e32189f-9585-4c68-a450-0cae60201801))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "#PWR08") (unit 1)
         )
@@ -1522,24 +1522,24 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 162.56 69.85 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 182.88 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c9b1629-7dbc-49dd-9206-c48654d619f3)
-    (property "Reference" "#PWR017" (at 162.56 73.66 0)
+    (property "Reference" "#PWR017" (at 182.88 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 162.56 64.77 0)
+    (property "Value" "+5V" (at 182.88 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 162.56 69.85 0)
+    (property "Footprint" "" (at 182.88 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 162.56 69.85 0)
+    (property "Datasheet" "" (at 182.88 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 15ccad02-a8c5-49b7-adb3-3f72c848e6d0))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "#PWR017") (unit 1)
         )
@@ -1565,7 +1565,7 @@
     (pin "1" (uuid dcfc9bcc-bd60-41dd-8212-273d028587d2))
     (pin "2" (uuid 23f1e617-542e-4c7c-9ed3-e2c55d0b364f))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "D4") (unit 1)
         )
@@ -1591,7 +1591,7 @@
     (pin "1" (uuid ca3968db-02eb-4e90-b928-9afdea5a7ee3))
     (pin "2" (uuid 37fadec4-b26c-425a-8d0e-91550117ee5e))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "D3") (unit 1)
         )
@@ -1616,7 +1616,7 @@
     )
     (pin "1" (uuid 34872dcf-f197-42a9-8623-e6dec6d4e95a))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "#PWR011") (unit 1)
         )
@@ -1642,7 +1642,7 @@
     (pin "1" (uuid 32eb58a0-ffe6-4b0a-851e-131b67b5b041))
     (pin "2" (uuid 8e03d36e-1cc4-4477-bc9b-bb084e8d9e21))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "R6") (unit 1)
         )
@@ -1650,24 +1650,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 209.55 43.18 90) (unit 1)
+  (symbol (lib_id "power:GND") (at 229.87 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 385131fc-6267-48d8-8d2c-fba994548291)
-    (property "Reference" "#PWR03" (at 215.9 43.18 0)
+    (property "Reference" "#PWR03" (at 236.22 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 213.36 43.18 90)
+    (property "Value" "GND" (at 233.68 85.09 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 209.55 43.18 0)
+    (property "Footprint" "" (at 229.87 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 209.55 43.18 0)
+    (property "Datasheet" "" (at 229.87 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 676db59a-b1e8-4e77-86e1-6611e05cbe93))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "#PWR03") (unit 1)
         )
@@ -1693,7 +1693,7 @@
     (pin "1" (uuid 92da99e2-6cdb-4a8c-ba3b-5443ae84e62d))
     (pin "2" (uuid dd582f92-0d15-407a-9db1-f883c91b9648))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "C2") (unit 1)
         )
@@ -1701,24 +1701,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 162.56 115.57 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 182.88 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 483e9f52-b92d-4c9f-8a36-b5c13c60ee5d)
-    (property "Reference" "#PWR018" (at 162.56 121.92 0)
+    (property "Reference" "#PWR018" (at 182.88 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 162.56 120.65 0)
+    (property "Value" "GND" (at 182.88 162.56 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 162.56 115.57 0)
+    (property "Footprint" "" (at 182.88 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 162.56 115.57 0)
+    (property "Datasheet" "" (at 182.88 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2dfdf4ef-ddd3-4e26-b6c5-a5421ca344f2))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "#PWR018") (unit 1)
         )
@@ -1759,7 +1759,7 @@
     (pin "B9" (uuid 7b674ed8-0652-4171-9869-f2d246cec352))
     (pin "S1" (uuid 2217dcb1-9d86-4afa-8b52-ada3b4a4c2ca))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "J3") (unit 1)
         )
@@ -1784,7 +1784,7 @@
     )
     (pin "1" (uuid 068c3ec6-f89e-47a0-aa9a-2cb48f2a9742))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "#PWR014") (unit 1)
         )
@@ -1792,24 +1792,24 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 234.95 92.71 90) (unit 1)
+  (symbol (lib_id "power:+5V") (at 255.27 134.62 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52782011-40eb-481e-a9b9-b0334d617c2e)
-    (property "Reference" "#PWR04" (at 238.76 92.71 0)
+    (property "Reference" "#PWR04" (at 259.08 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 231.14 92.71 90)
+    (property "Value" "+5V" (at 251.46 134.62 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 234.95 92.71 0)
+    (property "Footprint" "" (at 255.27 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 234.95 92.71 0)
+    (property "Datasheet" "" (at 255.27 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f0fa52e9-728c-489b-b80e-3419ac6c8ca3))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "#PWR04") (unit 1)
         )
@@ -1836,7 +1836,7 @@
     (pin "2" (uuid d6283a04-66d6-4253-97a4-c63ecdfad11b))
     (pin "3" (uuid ee94cbbc-4323-4604-b109-7a32d4eca806))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "U2") (unit 1)
         )
@@ -1862,7 +1862,7 @@
     (pin "1" (uuid 26183db2-9d17-4de0-bc19-c54e7fca565b))
     (pin "2" (uuid ca76f82b-81f4-4d4b-8b2b-b9cd1961abde))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "C1") (unit 1)
         )
@@ -1870,24 +1870,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 234.95 110.49 270) (unit 1)
+  (symbol (lib_id "power:GND") (at 255.27 152.4 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62e7a24d-e014-41b6-9fa4-82e2686d56ed)
-    (property "Reference" "#PWR05" (at 228.6 110.49 0)
+    (property "Reference" "#PWR05" (at 248.92 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 231.14 110.49 90)
+    (property "Value" "GND" (at 251.46 152.4 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 234.95 110.49 0)
+    (property "Footprint" "" (at 255.27 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 234.95 110.49 0)
+    (property "Datasheet" "" (at 255.27 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4e52ecca-ddb9-422c-a114-d41758f64b6b))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "#PWR05") (unit 1)
         )
@@ -1912,7 +1912,7 @@
     )
     (pin "1" (uuid 7b15ca94-fff3-4c5c-8956-6aa9efef0fbc))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "#PWR010") (unit 1)
         )
@@ -1920,19 +1920,19 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x07_Socket") (at 240.03 85.09 0) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x07_Socket") (at 260.35 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6936dd43-3ee9-416f-8202-bb674518eb59)
-    (property "Reference" "J4" (at 241.3 83.82 0)
+    (property "Reference" "J4" (at 261.62 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x07_Socket" (at 241.3 86.36 0)
+    (property "Value" "Conn_01x07_Socket" (at 261.62 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" (at 240.03 85.09 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" (at 260.35 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 240.03 85.09 0)
+    (property "Datasheet" "~" (at 260.35 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5ea02105-a200-4625-a071-fa425f5a5a46))
@@ -1943,7 +1943,7 @@
     (pin "6" (uuid 78f07d50-1454-46b2-aab2-22c812d6a88c))
     (pin "7" (uuid e833f903-cb40-477a-b5ab-ad465b4cc79c))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "J4") (unit 1)
         )
@@ -1951,25 +1951,25 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 193.04 43.18 90) (unit 1)
+  (symbol (lib_id "Device:R") (at 213.36 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c554e58-a310-4526-8128-7126f0813b0e)
-    (property "Reference" "R1" (at 193.04 40.64 90)
+    (property "Reference" "R1" (at 213.36 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TBC" (at 193.04 43.18 90)
+    (property "Value" "5.6k" (at 213.36 85.09 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 213.36 86.868 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 193.04 44.958 90)
+    (property "Datasheet" "~" (at 213.36 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 193.04 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fecabe03-dfca-4aaa-92a8-26187b995ca3))
-    (pin "2" (uuid 6d5a8dbb-f296-49a0-98e5-b02cbaf50e14))
+    (pin "1" (uuid 38c21079-e474-4c7e-a64b-dd7ce8a650be))
+    (pin "2" (uuid 97fab945-c262-46a8-b8ee-a0916b3f8123))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "R1") (unit 1)
         )
@@ -1977,19 +1977,19 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x07_Socket") (at 240.03 102.87 0) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x07_Socket") (at 260.35 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 821d88ad-3c22-4a11-a897-9969494dd9cb)
-    (property "Reference" "J5" (at 241.3 101.6 0)
+    (property "Reference" "J5" (at 261.62 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x07_Socket" (at 241.3 104.14 0)
+    (property "Value" "Conn_01x07_Socket" (at 261.62 146.05 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" (at 240.03 102.87 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" (at 260.35 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 240.03 102.87 0)
+    (property "Datasheet" "~" (at 260.35 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7ac8d1ae-54c4-44e4-aa3e-0d79ac1697ee))
@@ -2000,7 +2000,7 @@
     (pin "6" (uuid 1d63f899-c2a1-4e6c-a580-8bf21a3e0a0a))
     (pin "7" (uuid 9ec29352-1cfb-4a4e-a42f-6835dd05d682))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "J5") (unit 1)
         )
@@ -2025,7 +2025,7 @@
     )
     (pin "1" (uuid a744b404-3150-4734-b6b7-251b7c90a8ee))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "#PWR016") (unit 1)
         )
@@ -2033,24 +2033,24 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 119.38 120.65 0) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 119.38 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a404ff35-76ba-47b4-b1f2-1d3a1de1d867)
-    (property "Reference" "J2" (at 120.65 119.38 0)
+    (property "Reference" "J2" (at 120.65 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x03_Socket" (at 120.65 121.92 0)
+    (property "Value" "Conn_01x03_Socket" (at 120.65 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" (at 119.38 120.65 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" (at 119.38 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 119.38 120.65 0)
+    (property "Datasheet" "~" (at 119.38 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e3429612-1613-44f6-a641-b5b96e26dc30))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "J2") (unit 1)
         )
@@ -2075,7 +2075,7 @@
     )
     (pin "1" (uuid 40116ea0-b5b1-4e40-97f3-d41915c47080))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "#PWR02") (unit 1)
         )
@@ -2101,7 +2101,7 @@
     (pin "1" (uuid 47d19b00-c2e7-44c6-a0bf-7fd39d86f4b1))
     (pin "2" (uuid e0da2be2-ddcc-4495-a7d5-726ba9f581e4))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "R3") (unit 1)
         )
@@ -2126,7 +2126,7 @@
     )
     (pin "1" (uuid 5f4024b1-0fca-4379-8199-1df2c26f4787))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "#PWR015") (unit 1)
         )
@@ -2152,7 +2152,7 @@
     (pin "1" (uuid 00474e17-457c-4ee7-8183-e967f8f0b479))
     (pin "2" (uuid d23146fb-3d52-4937-9180-6171b89616ba))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "R4") (unit 1)
         )
@@ -2166,7 +2166,7 @@
     (property "Reference" "R2" (at 86.36 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TBC" (at 86.36 39.37 90)
+    (property "Value" "5.6k" (at 86.36 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 86.36 41.148 90)
@@ -2178,7 +2178,7 @@
     (pin "1" (uuid c7b307c5-ee41-4b0f-b58a-73ac190cb24f))
     (pin "2" (uuid 110710d9-582a-43e7-a483-098c157aa5fd))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "R2") (unit 1)
         )
@@ -2204,7 +2204,7 @@
     (pin "1" (uuid 72ca27d4-3453-4730-8a51-3b643c466950))
     (pin "2" (uuid f2b3399e-d5e8-49d9-8cdd-c363711f85a2))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "D2") (unit 1)
         )
@@ -2212,25 +2212,25 @@
     )
   )
 
-  (symbol (lib_id "Device:LED") (at 201.93 43.18 180) (unit 1)
+  (symbol (lib_id "Device:LED") (at 222.25 85.09 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5d4ce40-497d-436e-bab7-6f644ecc4ad3)
-    (property "Reference" "D1" (at 203.5175 35.56 0)
+    (property "Reference" "D1" (at 223.8375 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LED" (at 203.5175 38.1 0)
+    (property "Value" "LED" (at 223.8375 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_0805_2012Metric" (at 201.93 43.18 0)
+    (property "Footprint" "Diode_SMD:D_0805_2012Metric" (at 222.25 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 201.93 43.18 0)
+    (property "Datasheet" "~" (at 222.25 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 15480d51-2334-414e-865a-da40a5bb2665))
     (pin "2" (uuid 3eda7e7b-7f69-47de-a9f1-4221226519d7))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "D1") (unit 1)
         )
@@ -2256,7 +2256,7 @@
     (pin "1" (uuid 93964b0c-cd3e-400f-9963-54e6bf430fcb))
     (pin "2" (uuid ea4e3f1a-b9a1-46b6-b9d8-dd6426d512ea))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "R5") (unit 1)
         )
@@ -2281,7 +2281,7 @@
     )
     (pin "1" (uuid c0284ed5-a52a-446a-90c8-472d48c02b35))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "#PWR01") (unit 1)
         )
@@ -2306,7 +2306,7 @@
     )
     (pin "1" (uuid 6ed31f7b-2895-4fdb-ae30-2c2dc9e486e3))
     (instances
-      (project "attiny84-usbc"
+      (project "attiny85-usbc"
         (path "/94b27742-8c9d-4395-8fbe-9a1182763a71"
           (reference "#PWR012") (unit 1)
         )
