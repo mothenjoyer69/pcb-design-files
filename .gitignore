@@ -36,6 +36,9 @@ gbr/
 # Archive files
 *.zip
 *.rar
+*.tar
+*.gz
+*.xz
 
 # Rendered schematics and exported board drawings
 *.svg
@@ -69,5 +72,4 @@ panel_*.json
 # BOM
 *.csv
 
-
-Panels/
+(thank u arya for letting me steal https://github.com/CRImier/MyKiCad/blob/master/.gitignore)
