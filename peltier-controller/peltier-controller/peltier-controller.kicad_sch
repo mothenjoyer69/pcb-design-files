@@ -3469,7 +3469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-27_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_MELF"
 			(at 57.15 35.56 0)
 			(effects
 				(font
