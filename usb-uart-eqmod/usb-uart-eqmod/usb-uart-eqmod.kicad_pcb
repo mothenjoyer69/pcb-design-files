@@ -344,7 +344,7 @@
 			)
 		)
 		(property "Value" "270r"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "884d4a8b-77b0-49d9-bbce-91e729cbc1f2")
 			(effects
@@ -496,7 +496,7 @@
 			(uuid "ce725608-2270-4828-af17-09f03c276c77")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "5200d6da-e01e-4a7d-968e-b86bf105de19")
 			(effects
@@ -726,7 +726,7 @@
 			(uuid "ffa7af3f-f2f3-47c3-b9b1-6e2ab4e7d530")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "6e723561-5e06-4307-92fa-81fb5d5a51cc")
 			(effects
