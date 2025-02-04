@@ -155181,7 +155181,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "D2000:D2000_DDR4_BGA1144P100_3500X350"
 			(at 473.7101 161.2899 0)
 			(effects
 				(font
@@ -159610,7 +159610,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "D2000:D2000_DDR4_BGA1144P100_3500X350"
 			(at 500.3801 -50.8001 0)
 			(effects
 				(font
@@ -164090,7 +164090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "D2000:D2000_DDR4_BGA1144P100_3500X350"
 			(at 297.1801 -78.7401 0)
 			(effects
 				(font
@@ -167679,7 +167679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "D2000:D2000_DDR4_BGA1144P100_3500X350"
 			(at 481.3301 386.0799 0)
 			(effects
 				(font
@@ -171916,7 +171916,6 @@
 		)
 	)
 	(symbol
-		(lib_name "D2000:D2000-E8")
 		(lib_id "D2000:D2000-E8")
 		(at 768.35 368.3 0)
 		(unit 6)
@@ -171942,7 +171941,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "D2000:D2000_DDR4_BGA1144P100_3500X350"
 			(at 834.3901 116.8399 0)
 			(effects
 				(font
@@ -176469,7 +176468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "D2000:D2000_DDR4_BGA1144P100_3500X350"
 			(at 217.1701 344.1699 0)
 			(effects
 				(font
