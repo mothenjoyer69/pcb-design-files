@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 66.0401 251.4601 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 66.0401 251.4601 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.0401 251.4601 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.0401 251.4601 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.0401 251.4601 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14908,7 +14908,7 @@
 		(symbol "D2000-E8_6_1"
 			(rectangle
 				(start 0 289.56)
-				(end 66.04 73.66)
+				(end 66.04 30.48)
 				(stroke
 					(width 0)
 					(type default)
@@ -14919,7 +14919,7 @@
 			)
 			(rectangle
 				(start 111.7985 289.4319)
-				(end 177.8385 73.5319)
+				(end 177.8385 29.21)
 				(stroke
 					(width 0)
 					(type default)
@@ -14944,8 +14944,26 @@
 					)
 				)
 			)
+			(text "VSS and NC10 swapped on FT2000/4:\nAM31: LMU0_C1\nAN32: LMU0_C2\nAB18: LMU0_BP_VREF\nAJ30: LMU_D_OBV"
+				(at 112.268 205.994 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "VSS and NC9 swapped on FT2000/4:\nC31: LMU0_C1\nB32: LMU0_C2\nN17: LMU0_BP_VREF\nF30: LMU_D_OBV"
+				(at 0.508 205.994 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
 			(pin input line
-				(at 68.5801 285.7501 180)
+				(at 68.58 148.59 180)
 				(length 2.54)
 				(name "LMU0_DQ48"
 					(effects
@@ -14963,7 +14981,7 @@
 				)
 			)
 			(pin input line
-				(at -2.4983 145.9112 0)
+				(at -2.54 38.1 0)
 				(length 2.54)
 				(name "LMU0_DQS_C15"
 					(effects
@@ -14981,7 +14999,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 270.5101 180)
+				(at 68.58 130.81 180)
 				(length 2.54)
 				(name "LMU0_DQ55"
 					(effects
@@ -14999,7 +15017,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 278.1301 180)
+				(at 68.58 140.97 180)
 				(length 2.54)
 				(name "LMU0_DQ51"
 					(effects
@@ -15017,7 +15035,7 @@
 				)
 			)
 			(pin input line
-				(at 68.6347 245.1122 180)
+				(at 68.6346 194.3121 180)
 				(length 2.54)
 				(name "LMU0_DQ32"
 					(effects
@@ -15035,7 +15053,7 @@
 				)
 			)
 			(pin input line
-				(at -2.4983 140.8322 0)
+				(at -2.54 43.18 0)
 				(length 2.54)
 				(name "LMU0_DQS_C13"
 					(effects
@@ -15053,7 +15071,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 229.8701 180)
+				(at 68.58 179.07 180)
 				(length 2.54)
 				(name "LMU0_DQ38"
 					(effects
@@ -15071,7 +15089,7 @@
 				)
 			)
 			(pin input line
-				(at 68.6347 237.5211 180)
+				(at 68.58 189.23 180)
 				(length 2.54)
 				(name "LMU0_DQ34"
 					(effects
@@ -15089,7 +15107,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 123.1901 180)
+				(at 68.58 102.87 180)
 				(length 2.54)
 				(name "LMU0_CB0"
 					(effects
@@ -15107,7 +15125,7 @@
 				)
 			)
 			(pin input line
-				(at -2.5015 125.6019 0)
+				(at -2.54 33.02 0)
 				(length 2.54)
 				(name "LMU0_DQS_C17"
 					(effects
@@ -15125,7 +15143,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 105.4101 180)
+				(at 68.58 85.09 180)
 				(length 2.54)
 				(name "LMU0_CB7"
 					(effects
@@ -15143,7 +15161,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 115.5701 180)
+				(at 68.58 100.33 180)
 				(length 2.54)
 				(name "LMU0_CB1"
 					(effects
@@ -15161,7 +15179,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 214.6126 0)
+				(at -2.54 189.1923 0)
 				(length 2.54)
 				(name "LMU0_CKE3"
 					(effects
@@ -15215,7 +15233,7 @@
 				)
 			)
 			(pin input line
-				(at 69.85 87.633 180)
+				(at -2.54 88.903 0)
 				(length 2.54)
 				(name "LMU0_CLK_T2"
 					(effects
@@ -15233,7 +15251,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 179.07 0)
+				(at -2.54 130.81 0)
 				(length 2.54)
 				(name "LMU0_PAR"
 					(effects
@@ -15251,7 +15269,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 204.4903 0)
+				(at -2.54 176.5475 0)
 				(length 2.54)
 				(name "LMU0_CS_N3"
 					(effects
@@ -15287,7 +15305,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 190.3747 0)
+				(at 109.22 140.9728 0)
 				(length 2.54)
 				(name "LMU1_BP_ZN"
 					(effects
@@ -15305,7 +15323,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3946 135.638 180)
+				(at 180.34 280.67 180)
 				(length 2.54)
 				(name "LMU1_DQ2"
 					(effects
@@ -15323,7 +15341,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 151.0052 180)
+				(at 180.34 245.11 180)
 				(length 2.54)
 				(name "LMU1_DQ15"
 					(effects
@@ -15341,7 +15359,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 153.5452 180)
+				(at 180.34 252.73 180)
 				(length 2.54)
 				(name "LMU1_DQ12"
 					(effects
@@ -15359,9 +15377,9 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 175.1319 0)
+				(at 109.22 212.09 0)
 				(length 2.54)
-				(name "NC"
+				(name "NC10/LMU1_BP_VREF"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15377,7 +15395,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 138.3052 180)
+				(at 180.34 278.13 180)
 				(length 2.54)
 				(name "LMU1_DQ3"
 					(effects
@@ -15395,7 +15413,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3946 128.018 180)
+				(at 180.34 270.51 180)
 				(length 2.54)
 				(name "LMU1_DQ6"
 					(effects
@@ -15413,7 +15431,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3946 125.478 180)
+				(at 180.34 267.97 180)
 				(length 2.54)
 				(name "LMU1_DQ7"
 					(effects
@@ -15431,7 +15449,7 @@
 				)
 			)
 			(pin input line
-				(at 109.3131 130.668 0)
+				(at 109.22 53.34 0)
 				(length 2.54)
 				(name "LMU1_DQS_C9"
 					(effects
@@ -15449,7 +15467,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 105.2819 0)
+				(at 180.3785 78.8343 180)
 				(length 2.54)
 				(name "LMU1_DQS_T0"
 					(effects
@@ -15467,7 +15485,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2617 153.5301 0)
+				(at 109.22 78.74 0)
 				(length 2.54)
 				(name "LMU1_DQS_C0"
 					(effects
@@ -15485,7 +15503,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 82.4219 0)
+				(at 180.3785 53.4343 180)
 				(length 2.54)
 				(name "LMU1_DQS_T9"
 					(effects
@@ -15503,7 +15521,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 143.3852 180)
+				(at 180.34 285.75 180)
 				(length 2.54)
 				(name "LMU1_DQ0"
 					(effects
@@ -15521,7 +15539,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 140.8452 180)
+				(at 180.34 283.21 180)
 				(length 2.54)
 				(name "LMU1_DQ1"
 					(effects
@@ -15539,7 +15557,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4331 201.8061 180)
+				(at 180.3657 214.6309 180)
 				(length 2.54)
 				(name "LMU1_DQ25"
 					(effects
@@ -15557,7 +15575,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4256 196.7367 180)
+				(at 180.34 212.09 180)
 				(length 2.54)
 				(name "LMU1_DQ26"
 					(effects
@@ -15575,7 +15593,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3946 130.558 180)
+				(at 180.34 273.05 180)
 				(length 2.54)
 				(name "LMU1_DQ5"
 					(effects
@@ -15593,7 +15611,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3946 133.098 180)
+				(at 180.34 275.59 180)
 				(length 2.54)
 				(name "LMU1_DQ4"
 					(effects
@@ -15611,7 +15629,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 186.5652 180)
+				(at 180.34 199.39 180)
 				(length 2.54)
 				(name "LMU1_DQ31"
 					(effects
@@ -15629,7 +15647,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 189.1052 180)
+				(at 180.34 201.93 180)
 				(length 2.54)
 				(name "LMU1_DQ30"
 					(effects
@@ -15647,7 +15665,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 112.9019 0)
+				(at 180.3785 71.2143 180)
 				(length 2.54)
 				(name "LMU1_DQS_T3"
 					(effects
@@ -15665,7 +15683,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 182.7403 0)
+				(at 109.22 133.3384 0)
 				(length 2.54)
 				(name "LMU1_MEMRESET_L"
 					(effects
@@ -15719,7 +15737,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 194.1852 180)
+				(at 180.34 207.01 180)
 				(length 2.54)
 				(name "LMU1_DQ28"
 					(effects
@@ -15737,7 +15755,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 204.3452 180)
+				(at 180.34 217.17 180)
 				(length 2.54)
 				(name "LMU1_DQ24"
 					(effects
@@ -15755,7 +15773,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 90.0419 0)
+				(at 180.3785 45.8143 180)
 				(length 2.54)
 				(name "LMU1_DQS_T12"
 					(effects
@@ -15773,7 +15791,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2617 138.2933 0)
+				(at 109.22 45.72 0)
 				(length 2.54)
 				(name "LMU1_DQS_C12"
 					(effects
@@ -15791,7 +15809,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2617 161.1758 0)
+				(at 109.22 71.12 0)
 				(length 2.54)
 				(name "LMU1_DQS_C3"
 					(effects
@@ -15809,7 +15827,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 255.1419 180)
+				(at 180.34 115.57 180)
 				(length 2.54)
 				(name "LMU1_DQ60"
 					(effects
@@ -15827,7 +15845,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 265.3019 180)
+				(at 180.34 125.73 180)
 				(length 2.54)
 				(name "LMU1_DQ56"
 					(effects
@@ -15845,7 +15863,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 257.6819 180)
+				(at 180.34 118.11 180)
 				(length 2.54)
 				(name "LMU1_DQ59"
 					(effects
@@ -15863,7 +15881,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4331 250.0629 180)
+				(at 180.3946 110.491 180)
 				(length 2.54)
 				(name "LMU1_DQ62"
 					(effects
@@ -15881,7 +15899,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4331 252.6061 180)
+				(at 180.34 107.95 180)
 				(length 2.54)
 				(name "LMU1_DQ63"
 					(effects
@@ -15899,7 +15917,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 224.6652 180)
+				(at 180.34 171.45 180)
 				(length 2.54)
 				(name "LMU1_DQ40"
 					(effects
@@ -15917,7 +15935,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4331 217.0461 180)
+				(at 180.34 168.91 180)
 				(length 2.54)
 				(name "LMU1_DQ41"
 					(effects
@@ -15935,7 +15953,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 206.8852 180)
+				(at 180.34 156.21 180)
 				(length 2.54)
 				(name "LMU1_DQ46"
 					(effects
@@ -15953,7 +15971,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 185.2917 0)
+				(at 109.22 135.8898 0)
 				(length 2.54)
 				(name "LMU1_BP_ALERT_N"
 					(effects
@@ -16025,7 +16043,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 200.5144 0)
+				(at 109.22 151.1125 0)
 				(length 2.54)
 				(name "LMU1_ODT0"
 					(effects
@@ -16043,7 +16061,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 191.6452 180)
+				(at 180.34 204.47 180)
 				(length 2.54)
 				(name "LMU1_DQ29"
 					(effects
@@ -16061,7 +16079,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4256 181.4945 180)
+				(at 180.3583 237.4994 180)
 				(length 2.54)
 				(name "LMU1_DQ17"
 					(effects
@@ -16079,7 +16097,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4073 178.9451 180)
+				(at 180.34 234.95 180)
 				(length 2.54)
 				(name "LMU1_DQ18"
 					(effects
@@ -16097,7 +16115,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4331 199.2661 180)
+				(at 180.34 209.55 180)
 				(length 2.54)
 				(name "LMU1_DQ27"
 					(effects
@@ -16115,7 +16133,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4331 247.5261 180)
+				(at 180.34 113.03 180)
 				(length 2.54)
 				(name "LMU1_DQ61"
 					(effects
@@ -16133,7 +16151,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 97.6619 0)
+				(at 181.6485 35.6543 180)
 				(length 2.54)
 				(name "LMU1_DQS_T16"
 					(effects
@@ -16151,7 +16169,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 262.7619 180)
+				(at 180.34 123.19 180)
 				(length 2.54)
 				(name "LMU1_DQ57"
 					(effects
@@ -16169,7 +16187,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 214.5052 180)
+				(at 180.34 161.29 180)
 				(length 2.54)
 				(name "LMU1_DQ44"
 					(effects
@@ -16187,7 +16205,7 @@
 				)
 			)
 			(pin input line
-				(at 109.22 92.6762 0)
+				(at 180.3785 40.7343 180)
 				(length 2.54)
 				(name "LMU1_DQS_T14"
 					(effects
@@ -16205,7 +16223,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2617 163.7426 0)
+				(at 109.22 66.04 0)
 				(length 2.54)
 				(name "LMU1_DQS_C5"
 					(effects
@@ -16223,7 +16241,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4331 219.5861 180)
+				(at 180.34 163.83 180)
 				(length 2.54)
 				(name "LMU1_DQ43"
 					(effects
@@ -16241,7 +16259,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 187.8201 0)
+				(at 109.22 138.4182 0)
 				(length 2.54)
 				(name "LMU1_ACT_N"
 					(effects
@@ -16295,7 +16313,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 95.113 180)
+				(at 109.22 96.5111 0)
 				(length 2.54)
 				(name "LMU1_CLK_C1"
 					(effects
@@ -16313,7 +16331,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 195.4578 0)
+				(at 109.22 146.0559 0)
 				(length 2.54)
 				(name "LMU1_ODT2"
 					(effects
@@ -16331,7 +16349,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 197.9861 0)
+				(at 109.22 148.5842 0)
 				(length 2.54)
 				(name "LMU1_ODT1"
 					(effects
@@ -16349,7 +16367,25 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 171.3252 180)
+				(at 109.22 214.63 0)
+				(length 2.54)
+				(name "VSS/LMU1_D_OBV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AJ30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 180.3401 227.3301 180)
 				(length 2.54)
 				(name "LMU1_DQ21"
 					(effects
@@ -16367,7 +16403,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 168.7852 180)
+				(at 180.3401 224.7901 180)
 				(length 2.54)
 				(name "LMU1_DQ22"
 					(effects
@@ -16385,7 +16421,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 110.3619 0)
+				(at 180.3785 73.7543 180)
 				(length 2.54)
 				(name "LMU1_DQS_T2"
 					(effects
@@ -16403,7 +16439,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 275.4619 180)
+				(at 180.34 138.43 180)
 				(length 2.54)
 				(name "LMU1_DQ52"
 					(effects
@@ -16421,7 +16457,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2617 145.939 0)
+				(at 109.22 35.56 0)
 				(length 2.54)
 				(name "LMU1_DQS_C16"
 					(effects
@@ -16439,7 +16475,7 @@
 				)
 			)
 			(pin input line
-				(at 109.3131 168.768 0)
+				(at 109.22 60.96 0)
 				(length 2.54)
 				(name "LMU1_DQS_C7"
 					(effects
@@ -16457,7 +16493,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 260.2219 180)
+				(at 180.34 120.65 180)
 				(length 2.54)
 				(name "LMU1_DQ58"
 					(effects
@@ -16475,7 +16511,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4331 209.4261 180)
+				(at 180.3657 158.7509 180)
 				(length 2.54)
 				(name "LMU1_DQ45"
 					(effects
@@ -16493,7 +16529,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2617 140.8601 0)
+				(at 109.22 40.64 0)
 				(length 2.54)
 				(name "LMU1_DQS_C14"
 					(effects
@@ -16511,7 +16547,7 @@
 				)
 			)
 			(pin input line
-				(at 109.22 115.4822 0)
+				(at 180.3785 66.1343 180)
 				(length 2.54)
 				(name "LMU1_DQS_T5"
 					(effects
@@ -16529,7 +16565,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4588 222.127 180)
+				(at 180.3657 166.3709 180)
 				(length 2.54)
 				(name "LMU1_DQ42"
 					(effects
@@ -16547,7 +16583,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 229.7419 0)
+				(at 109.22 227.33 0)
 				(length 2.54)
 				(name "LMU1_BG1"
 					(effects
@@ -16565,7 +16601,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 232.2733 0)
+				(at 109.22 229.8614 0)
 				(length 2.54)
 				(name "LMU1_BG0"
 					(effects
@@ -16601,7 +16637,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 100.196 180)
+				(at 109.22 101.5941 0)
 				(length 2.54)
 				(name "LMU1_CLK_C0"
 					(effects
@@ -16619,7 +16655,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 92.5616 180)
+				(at 109.22 93.9597 0)
 				(length 2.54)
 				(name "LMU1_CLK_T1"
 					(effects
@@ -16637,7 +16673,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 211.9242 0)
+				(at 109.22 184.1123 0)
 				(length 2.54)
 				(name "LMU1_CS_N0"
 					(effects
@@ -16655,7 +16691,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 206.8442 0)
+				(at 109.22 179.0323 0)
 				(length 2.54)
 				(name "LMU1_CS_N2"
 					(effects
@@ -16673,7 +16709,7 @@
 				)
 			)
 			(pin input line
-				(at 109.22 87.63 0)
+				(at 180.3785 48.3543 180)
 				(length 2.54)
 				(name "LMU1_DQS_T11"
 					(effects
@@ -16691,7 +16727,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2617 135.7811 0)
+				(at 109.22 48.26 0)
 				(length 2.54)
 				(name "LMU1_DQS_C11"
 					(effects
@@ -16709,7 +16745,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2617 158.609 0)
+				(at 109.22 73.66 0)
 				(length 2.54)
 				(name "LMU1_DQS_C2"
 					(effects
@@ -16727,7 +16763,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 272.9219 180)
+				(at 180.34 135.89 180)
 				(length 2.54)
 				(name "LMU1_DQ53"
 					(effects
@@ -16745,7 +16781,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 171.3122 0)
+				(at 109.22 63.5 0)
 				(length 2.54)
 				(name "LMU1_DQS_C6"
 					(effects
@@ -16763,7 +16799,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 123.0619 0)
+				(at 180.3785 63.5943 180)
 				(length 2.54)
 				(name "LMU1_DQS_T6"
 					(effects
@@ -16781,7 +16817,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 120.5219 0)
+				(at 180.3785 61.0543 180)
 				(length 2.54)
 				(name "LMU1_DQS_T7"
 					(effects
@@ -16799,7 +16835,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4331 234.8261 180)
+				(at 180.3946 184.1542 180)
 				(length 2.54)
 				(name "LMU1_DQ36"
 					(effects
@@ -16817,7 +16853,7 @@
 				)
 			)
 			(pin input line
-				(at 109.3131 166.228 0)
+				(at 109.22 68.58 0)
 				(length 2.54)
 				(name "LMU1_DQS_C4"
 					(effects
@@ -16835,7 +16871,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 117.9819 0)
+				(at 180.3785 68.6743 180)
 				(length 2.54)
 				(name "LMU1_DQS_T4"
 					(effects
@@ -16853,7 +16889,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3946 112.778 180)
+				(at 180.34 92.71 180)
 				(length 2.54)
 				(name "LMU1_CB4"
 					(effects
@@ -16871,7 +16907,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3946 110.238 180)
+				(at 180.34 87.63 180)
 				(length 2.54)
 				(name "LMU1_CB6"
 					(effects
@@ -16889,7 +16925,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4331 211.9661 180)
+				(at 180.34 153.67 180)
 				(length 2.54)
 				(name "LMU1_DQ47"
 					(effects
@@ -16907,7 +16943,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3946 117.858 180)
+				(at 180.34 97.79 180)
 				(length 2.54)
 				(name "LMU1_CB2"
 					(effects
@@ -16925,7 +16961,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 219.5442 0)
+				(at 109.22 194.2723 0)
 				(length 2.54)
 				(name "LMU1_CKE1"
 					(effects
@@ -16961,7 +16997,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 97.6677 180)
+				(at 109.22 99.0658 0)
 				(length 2.54)
 				(name "LMU1_CLK_T0"
 					(effects
@@ -16979,7 +17015,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 84.9502 180)
+				(at 109.22 86.3483 0)
 				(length 2.54)
 				(name "LMU1_CLK_C3"
 					(effects
@@ -17015,7 +17051,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 224.6242 0)
+				(at 109.22 222.25 0)
 				(length 2.54)
 				(name "LMU1_C0"
 					(effects
@@ -17033,7 +17069,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 173.8652 180)
+				(at 180.3401 229.8701 180)
 				(length 2.54)
 				(name "LMU1_DQ20"
 					(effects
@@ -17051,7 +17087,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4256 184.0367 180)
+				(at 180.3583 240.0416 180)
 				(length 2.54)
 				(name "LMU1_DQ16"
 					(effects
@@ -17069,7 +17105,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4256 176.4212 180)
+				(at 180.3583 232.4261 180)
 				(length 2.54)
 				(name "LMU1_DQ19"
 					(effects
@@ -17087,7 +17123,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4331 278.0061 180)
+				(at 180.34 146.05 180)
 				(length 2.54)
 				(name "LMU1_DQ49"
 					(effects
@@ -17105,7 +17141,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 267.8419 180)
+				(at 180.34 133.35 180)
 				(length 2.54)
 				(name "LMU1_DQ54"
 					(effects
@@ -17123,7 +17159,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 232.2852 180)
+				(at 180.34 176.53 180)
 				(length 2.54)
 				(name "LMU1_DQ39"
 					(effects
@@ -17141,7 +17177,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 227.2052 180)
+				(at 180.34 181.61 180)
 				(length 2.54)
 				(name "LMU1_DQ37"
 					(effects
@@ -17159,7 +17195,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2617 151.0179 0)
+				(at 109.22 58.42 0)
 				(length 2.54)
 				(name "LMU1_DQS_C8"
 					(effects
@@ -17177,7 +17213,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 102.7419 0)
+				(at 180.3785 58.5143 180)
 				(length 2.54)
 				(name "LMU1_DQS_T8"
 					(effects
@@ -17195,7 +17231,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 217.0042 0)
+				(at 109.22 191.7323 0)
 				(length 2.54)
 				(name "LMU1_CKE2"
 					(effects
@@ -17249,7 +17285,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 82.4219 180)
+				(at 109.22 83.82 0)
 				(length 2.54)
 				(name "LMU1_CLK_T3"
 					(effects
@@ -17285,7 +17321,25 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 166.2452 180)
+				(at 109.22 219.71 0)
+				(length 2.54)
+				(name "VSS/LMU1_C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AM31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 180.3401 222.2501 180)
 				(length 2.54)
 				(name "LMU1_DQ23"
 					(effects
@@ -17303,7 +17357,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 100.2019 0)
+				(at 181.6485 38.1943 180)
 				(length 2.54)
 				(name "LMU1_DQS_T15"
 					(effects
@@ -17321,7 +17375,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 280.5419 180)
+				(at 180.34 143.51 180)
 				(length 2.54)
 				(name "LMU1_DQ50"
 					(effects
@@ -17339,7 +17393,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 242.4419 180)
+				(at 180.34 186.69 180)
 				(length 2.54)
 				(name "LMU1_DQ35"
 					(effects
@@ -17357,7 +17411,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 95.1219 0)
+				(at 180.34 43.18 180)
 				(length 2.54)
 				(name "LMU1_DQS_T13"
 					(effects
@@ -17375,7 +17429,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4331 239.9051 180)
+				(at 180.34 191.77 180)
 				(length 2.54)
 				(name "LMU1_DQ33"
 					(effects
@@ -17393,7 +17447,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3946 120.398 180)
+				(at 180.34 95.25 180)
 				(length 2.54)
 				(name "LMU1_CB3"
 					(effects
@@ -17411,7 +17465,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 79.8819 0)
+				(at 181.6485 33.1143 180)
 				(length 2.54)
 				(name "LMU1_DQS_T17"
 					(effects
@@ -17429,7 +17483,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3946 105.158 180)
+				(at 180.34 90.17 180)
 				(length 2.54)
 				(name "LMU1_CB5"
 					(effects
@@ -17447,7 +17501,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 222.0898 0)
+				(at 109.22 196.8179 0)
 				(length 2.54)
 				(name "LMU1_CKE0"
 					(effects
@@ -17501,7 +17555,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 90.0216 180)
+				(at 109.22 91.4197 0)
 				(length 2.54)
 				(name "LMU1_CLK_C2"
 					(effects
@@ -17555,7 +17609,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 192.9031 0)
+				(at 109.22 143.5012 0)
 				(length 2.54)
 				(name "LMU1_ODT3"
 					(effects
@@ -17573,7 +17627,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 209.3842 0)
+				(at 109.22 181.5723 0)
 				(length 2.54)
 				(name "LMU1_CS_N1"
 					(effects
@@ -17591,7 +17645,25 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 285.6219 180)
+				(at 109.22 217.17 0)
+				(length 2.54)
+				(name "VSS/LMU1_C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AN32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 180.34 148.59 180)
 				(length 2.54)
 				(name "LMU1_DQ48"
 					(effects
@@ -17609,7 +17681,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2617 148.4512 0)
+				(at 109.22 38.0722 0)
 				(length 2.54)
 				(name "LMU1_DQS_C15"
 					(effects
@@ -17627,7 +17699,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 270.3819 180)
+				(at 180.34 130.81 180)
 				(length 2.54)
 				(name "LMU1_DQ55"
 					(effects
@@ -17645,7 +17717,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4331 283.0861 180)
+				(at 180.34 140.97 180)
 				(length 2.54)
 				(name "LMU1_DQ51"
 					(effects
@@ -17663,7 +17735,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4331 244.984 180)
+				(at 180.3946 194.3121 180)
 				(length 2.54)
 				(name "LMU1_DQ32"
 					(effects
@@ -17681,7 +17753,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2617 143.3722 0)
+				(at 109.22 43.18 0)
 				(length 2.54)
 				(name "LMU1_DQS_C13"
 					(effects
@@ -17699,7 +17771,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 229.7452 180)
+				(at 180.3689 179.0733 180)
 				(length 2.54)
 				(name "LMU1_DQ38"
 					(effects
@@ -17717,7 +17789,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4331 237.3929 180)
+				(at 180.34 189.23 180)
 				(length 2.54)
 				(name "LMU1_DQ34"
 					(effects
@@ -17735,7 +17807,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3946 122.938 180)
+				(at 180.34 102.87 180)
 				(length 2.54)
 				(name "LMU1_CB0"
 					(effects
@@ -17753,7 +17825,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 128.1419 0)
+				(at 109.22 33.02 0)
 				(length 2.54)
 				(name "LMU1_DQS_C17"
 					(effects
@@ -17771,7 +17843,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3946 107.698 180)
+				(at 180.34 85.09 180)
 				(length 2.54)
 				(name "LMU1_CB7"
 					(effects
@@ -17789,7 +17861,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3946 115.318 180)
+				(at 180.34 100.33 180)
 				(length 2.54)
 				(name "LMU1_CB1"
 					(effects
@@ -17807,7 +17879,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 214.4642 0)
+				(at 109.22 189.1923 0)
 				(length 2.54)
 				(name "LMU1_CKE3"
 					(effects
@@ -17861,7 +17933,7 @@
 				)
 			)
 			(pin input line
-				(at 180.3785 87.5049 180)
+				(at 109.22 88.903 0)
 				(length 2.54)
 				(name "LMU1_CLK_T2"
 					(effects
@@ -17879,7 +17951,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 180.2119 0)
+				(at 109.22 130.81 0)
 				(length 2.54)
 				(name "LMU1_PAR"
 					(effects
@@ -17897,7 +17969,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 204.3419 0)
+				(at 109.22 176.53 0)
 				(length 2.54)
 				(name "LMU1_CS_N3"
 					(effects
@@ -17933,7 +18005,7 @@
 				)
 			)
 			(pin input line
-				(at -2.5015 97.6619 0)
+				(at 68.58 38.1 180)
 				(length 2.54)
 				(name "LMU0_DQS_T15"
 					(effects
@@ -17951,7 +18023,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 280.6701 180)
+				(at 68.58 143.51 180)
 				(length 2.54)
 				(name "LMU0_DQ50"
 					(effects
@@ -17969,7 +18041,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 242.5701 180)
+				(at 68.58 186.69 180)
 				(length 2.54)
 				(name "LMU0_DQ35"
 					(effects
@@ -17987,7 +18059,7 @@
 				)
 			)
 			(pin input line
-				(at -2.5015 92.5819 0)
+				(at 68.58 43.18 180)
 				(length 2.54)
 				(name "LMU0_DQS_T13"
 					(effects
@@ -18005,7 +18077,7 @@
 				)
 			)
 			(pin input line
-				(at 68.6347 240.0333 180)
+				(at 68.58 191.7422 180)
 				(length 2.54)
 				(name "LMU0_DQ33"
 					(effects
@@ -18023,7 +18095,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 118.1101 180)
+				(at 68.58 95.25 180)
 				(length 2.54)
 				(name "LMU0_CB3"
 					(effects
@@ -18041,7 +18113,7 @@
 				)
 			)
 			(pin input line
-				(at -2.5015 77.3419 0)
+				(at 68.58 33.02 180)
 				(length 2.54)
 				(name "LMU0_DQS_T17"
 					(effects
@@ -18059,7 +18131,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 110.4901 180)
+				(at 68.58 90.17 180)
 				(length 2.54)
 				(name "LMU0_CB5"
 					(effects
@@ -18077,7 +18149,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 222.2382 0)
+				(at -2.54 196.8179 0)
 				(length 2.54)
 				(name "LMU0_CKE0"
 					(effects
@@ -18131,7 +18203,7 @@
 				)
 			)
 			(pin input line
-				(at 69.85 90.1497 180)
+				(at -2.54 91.4197 0)
 				(length 2.54)
 				(name "LMU0_CLK_C2"
 					(effects
@@ -18185,7 +18257,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 191.7612 0)
+				(at -2.54 143.5012 0)
 				(length 2.54)
 				(name "LMU0_ODT3"
 					(effects
@@ -18203,7 +18275,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 209.5326 0)
+				(at -2.54 181.5898 0)
 				(length 2.54)
 				(name "LMU0_CS_N1"
 					(effects
@@ -18221,7 +18293,25 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 283.2101 180)
+				(at -2.54 217.17 0)
+				(length 2.54)
+				(name "VSS/LMU0_C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 68.58 146.05 180)
 				(length 2.54)
 				(name "LMU0_DQ49"
 					(effects
@@ -18239,7 +18329,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 267.9701 180)
+				(at 68.58 133.35 180)
 				(length 2.54)
 				(name "LMU0_DQ54"
 					(effects
@@ -18257,7 +18347,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 232.4101 180)
+				(at 68.58 176.53 180)
 				(length 2.54)
 				(name "LMU0_DQ39"
 					(effects
@@ -18275,7 +18365,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 227.3301 180)
+				(at 68.58 181.61 180)
 				(length 2.54)
 				(name "LMU0_DQ37"
 					(effects
@@ -18293,7 +18383,7 @@
 				)
 			)
 			(pin input line
-				(at -2.4983 148.4779 0)
+				(at -2.54 58.42 0)
 				(length 2.54)
 				(name "LMU0_DQS_C8"
 					(effects
@@ -18311,7 +18401,7 @@
 				)
 			)
 			(pin input line
-				(at -2.5015 100.2019 0)
+				(at 68.58 58.42 180)
 				(length 2.54)
 				(name "LMU0_DQS_T8"
 					(effects
@@ -18329,7 +18419,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 217.1526 0)
+				(at -2.54 191.7323 0)
 				(length 2.54)
 				(name "LMU0_CKE2"
 					(effects
@@ -18383,7 +18473,7 @@
 				)
 			)
 			(pin input line
-				(at 69.85 82.55 180)
+				(at -2.54 83.82 0)
 				(length 2.54)
 				(name "LMU0_CLK_T3"
 					(effects
@@ -18419,7 +18509,25 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 166.3701 180)
+				(at -2.54 219.71 0)
+				(length 2.54)
+				(name "VSS/LMU0_C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 68.5801 222.2501 180)
 				(length 2.54)
 				(name "LMU0_DQ23"
 					(effects
@@ -18437,7 +18545,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 273.0501 180)
+				(at 68.58 135.89 180)
 				(length 2.54)
 				(name "LMU0_DQ53"
 					(effects
@@ -18455,7 +18563,7 @@
 				)
 			)
 			(pin input line
-				(at -2.4469 168.7736 0)
+				(at -2.54 63.5 0)
 				(length 2.54)
 				(name "LMU0_DQS_C6"
 					(effects
@@ -18473,7 +18581,7 @@
 				)
 			)
 			(pin input line
-				(at -2.5015 120.5219 0)
+				(at 68.58 63.5 180)
 				(length 2.54)
 				(name "LMU0_DQS_T6"
 					(effects
@@ -18491,7 +18599,7 @@
 				)
 			)
 			(pin input line
-				(at -2.5015 117.9819 0)
+				(at 68.58 60.96 180)
 				(length 2.54)
 				(name "LMU0_DQS_T7"
 					(effects
@@ -18509,7 +18617,7 @@
 				)
 			)
 			(pin input line
-				(at 68.6347 234.9543 180)
+				(at 68.6346 184.1542 180)
 				(length 2.54)
 				(name "LMU0_DQ36"
 					(effects
@@ -18527,7 +18635,7 @@
 				)
 			)
 			(pin input line
-				(at -2.4469 163.688 0)
+				(at -2.54 68.58 0)
 				(length 2.54)
 				(name "LMU0_DQS_C4"
 					(effects
@@ -18545,7 +18653,7 @@
 				)
 			)
 			(pin input line
-				(at -2.5015 115.4419 0)
+				(at 68.58 68.58 180)
 				(length 2.54)
 				(name "LMU0_DQS_T4"
 					(effects
@@ -18563,7 +18671,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 113.0301 180)
+				(at 68.58 92.71 180)
 				(length 2.54)
 				(name "LMU0_CB4"
 					(effects
@@ -18581,7 +18689,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 107.9501 180)
+				(at 68.58 87.63 180)
 				(length 2.54)
 				(name "LMU0_CB6"
 					(effects
@@ -18599,7 +18707,7 @@
 				)
 			)
 			(pin input line
-				(at 68.588 209.5853 180)
+				(at 68.58 153.67 180)
 				(length 2.54)
 				(name "LMU0_DQ47"
 					(effects
@@ -18617,7 +18725,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 120.6501 180)
+				(at 68.58 97.79 180)
 				(length 2.54)
 				(name "LMU0_CB2"
 					(effects
@@ -18635,7 +18743,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 219.6926 0)
+				(at -2.54 194.2723 0)
 				(length 2.54)
 				(name "LMU0_CKE1"
 					(effects
@@ -18671,7 +18779,7 @@
 				)
 			)
 			(pin input line
-				(at 69.85 97.7958 180)
+				(at -2.54 99.0658 0)
 				(length 2.54)
 				(name "LMU0_CLK_T0"
 					(effects
@@ -18689,7 +18797,7 @@
 				)
 			)
 			(pin input line
-				(at 69.85 85.0783 180)
+				(at -2.54 86.3483 0)
 				(length 2.54)
 				(name "LMU0_CLK_C3"
 					(effects
@@ -18725,7 +18833,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 224.79 0)
+				(at -2.54 222.25 0)
 				(length 2.54)
 				(name "LMU0_C0"
 					(effects
@@ -18743,7 +18851,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 173.9901 180)
+				(at 68.5801 229.8701 180)
 				(length 2.54)
 				(name "LMU0_DQ20"
 					(effects
@@ -18761,7 +18869,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5983 184.1616 180)
+				(at 68.58 240.03 180)
 				(length 2.54)
 				(name "LMU0_DQ16"
 					(effects
@@ -18779,7 +18887,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5983 176.5461 180)
+				(at 68.5983 232.4261 180)
 				(length 2.54)
 				(name "LMU0_DQ19"
 					(effects
@@ -18797,7 +18905,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 275.5901 180)
+				(at 68.58 138.43 180)
 				(length 2.54)
 				(name "LMU0_DQ52"
 					(effects
@@ -18815,7 +18923,7 @@
 				)
 			)
 			(pin input line
-				(at -2.4983 143.399 0)
+				(at -2.54 35.56 0)
 				(length 2.54)
 				(name "LMU0_DQS_C16"
 					(effects
@@ -18833,7 +18941,7 @@
 				)
 			)
 			(pin input line
-				(at -2.4469 166.228 0)
+				(at -2.54 60.96 0)
 				(length 2.54)
 				(name "LMU0_DQS_C7"
 					(effects
@@ -18851,7 +18959,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 260.3501 180)
+				(at 68.58 120.65 180)
 				(length 2.54)
 				(name "LMU0_DQ58"
 					(effects
@@ -18869,7 +18977,7 @@
 				)
 			)
 			(pin input line
-				(at 68.588 212.1332 180)
+				(at 68.5879 158.7931 180)
 				(length 2.54)
 				(name "LMU0_DQ45"
 					(effects
@@ -18887,7 +18995,7 @@
 				)
 			)
 			(pin input line
-				(at -2.4983 138.3201 0)
+				(at -2.54 40.64 0)
 				(length 2.54)
 				(name "LMU0_DQS_C14"
 					(effects
@@ -18905,7 +19013,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 112.9422 0)
+				(at 68.58 66.04 180)
 				(length 2.54)
 				(name "LMU0_DQS_T5"
 					(effects
@@ -18923,7 +19031,7 @@
 				)
 			)
 			(pin input line
-				(at 68.6058 219.711 180)
+				(at 68.6057 166.3709 180)
 				(length 2.54)
 				(name "LMU0_DQ42"
 					(effects
@@ -18941,7 +19049,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 229.8786 0)
+				(at -2.54 227.33 0)
 				(length 2.54)
 				(name "LMU0_BG1"
 					(effects
@@ -18959,7 +19067,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 232.41 0)
+				(at -2.54 229.8614 0)
 				(length 2.54)
 				(name "LMU0_BG0"
 					(effects
@@ -18995,7 +19103,7 @@
 				)
 			)
 			(pin input line
-				(at 69.85 100.3241 180)
+				(at -2.54 101.5941 0)
 				(length 2.54)
 				(name "LMU0_CLK_C0"
 					(effects
@@ -19013,7 +19121,7 @@
 				)
 			)
 			(pin input line
-				(at 69.85 92.6897 180)
+				(at -2.54 93.9597 0)
 				(length 2.54)
 				(name "LMU0_CLK_T1"
 					(effects
@@ -19031,7 +19139,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 212.0726 0)
+				(at -2.54 184.1298 0)
 				(length 2.54)
 				(name "LMU0_CS_N0"
 					(effects
@@ -19049,7 +19157,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 206.9926 0)
+				(at -2.54 179.0498 0)
 				(length 2.54)
 				(name "LMU0_CS_N2"
 					(effects
@@ -19067,7 +19175,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 85.09 0)
+				(at 68.58 48.26 180)
 				(length 2.54)
 				(name "LMU0_DQS_T11"
 					(effects
@@ -19085,7 +19193,7 @@
 				)
 			)
 			(pin input line
-				(at -2.4983 133.2411 0)
+				(at -2.54 48.26 0)
 				(length 2.54)
 				(name "LMU0_DQS_C11"
 					(effects
@@ -19103,7 +19211,7 @@
 				)
 			)
 			(pin input line
-				(at -2.4983 156.069 0)
+				(at -2.54 73.66 0)
 				(length 2.54)
 				(name "LMU0_DQS_C2"
 					(effects
@@ -19121,7 +19229,7 @@
 				)
 			)
 			(pin input line
-				(at 68.6347 252.7579 180)
+				(at 68.6346 113.0578 180)
 				(length 2.54)
 				(name "LMU0_DQ61"
 					(effects
@@ -19139,7 +19247,7 @@
 				)
 			)
 			(pin input line
-				(at -2.5015 95.1219 0)
+				(at 68.58 35.56 180)
 				(length 2.54)
 				(name "LMU0_DQS_T16"
 					(effects
@@ -19157,7 +19265,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 262.8901 180)
+				(at 68.58 123.19 180)
 				(length 2.54)
 				(name "LMU0_DQ57"
 					(effects
@@ -19175,7 +19283,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 214.6301 180)
+				(at 68.58 161.29 180)
 				(length 2.54)
 				(name "LMU0_DQ44"
 					(effects
@@ -19193,7 +19301,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 90.1362 0)
+				(at 68.58 40.64 180)
 				(length 2.54)
 				(name "LMU0_DQS_T14"
 					(effects
@@ -19211,7 +19319,7 @@
 				)
 			)
 			(pin input line
-				(at -2.4983 161.2026 0)
+				(at -2.54 66.04 0)
 				(length 2.54)
 				(name "LMU0_DQS_C5"
 					(effects
@@ -19229,7 +19337,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 222.2501 180)
+				(at 68.58 168.91 180)
 				(length 2.54)
 				(name "LMU0_DQ41"
 					(effects
@@ -19247,7 +19355,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 186.6782 0)
+				(at -2.54 138.4182 0)
 				(length 2.54)
 				(name "LMU0_ACT_N"
 					(effects
@@ -19301,7 +19409,7 @@
 				)
 			)
 			(pin input line
-				(at 69.85 95.2411 180)
+				(at -2.54 96.5111 0)
 				(length 2.54)
 				(name "LMU0_CLK_C1"
 					(effects
@@ -19319,7 +19427,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 194.3159 0)
+				(at -2.54 146.0559 0)
 				(length 2.54)
 				(name "LMU0_ODT2"
 					(effects
@@ -19337,7 +19445,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 196.8442 0)
+				(at -2.54 148.5842 0)
 				(length 2.54)
 				(name "LMU0_ODT1"
 					(effects
@@ -19355,7 +19463,25 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 171.4501 180)
+				(at -2.54 214.63 0)
+				(length 2.54)
+				(name "VSS/LMU0_D_OBV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 68.5801 227.3301 180)
 				(length 2.54)
 				(name "LMU0_DQ21"
 					(effects
@@ -19373,7 +19499,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 168.9101 180)
+				(at 68.5801 224.7901 180)
 				(length 2.54)
 				(name "LMU0_DQ22"
 					(effects
@@ -19391,7 +19517,7 @@
 				)
 			)
 			(pin input line
-				(at -2.5015 107.8219 0)
+				(at 68.58 73.66 180)
 				(length 2.54)
 				(name "LMU0_DQS_T2"
 					(effects
@@ -19409,7 +19535,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 255.2701 180)
+				(at 68.58 115.57 180)
 				(length 2.54)
 				(name "LMU0_DQ60"
 					(effects
@@ -19427,7 +19553,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 257.8101 180)
+				(at 68.58 118.11 180)
 				(length 2.54)
 				(name "LMU0_DQ59"
 					(effects
@@ -19445,7 +19571,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 265.4301 180)
+				(at 68.58 125.73 180)
 				(length 2.54)
 				(name "LMU0_DQ56"
 					(effects
@@ -19463,7 +19589,7 @@
 				)
 			)
 			(pin input line
-				(at 68.6347 250.1911 180)
+				(at 68.6346 110.491 180)
 				(length 2.54)
 				(name "LMU0_DQ62"
 					(effects
@@ -19481,7 +19607,7 @@
 				)
 			)
 			(pin input line
-				(at 68.6347 247.679 180)
+				(at 68.6346 107.9789 180)
 				(length 2.54)
 				(name "LMU0_DQ63"
 					(effects
@@ -19499,7 +19625,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 217.1701 180)
+				(at 68.58 163.83 180)
 				(length 2.54)
 				(name "LMU0_DQ43"
 					(effects
@@ -19517,7 +19643,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 224.7901 180)
+				(at 68.58 171.45 180)
 				(length 2.54)
 				(name "LMU0_DQ40"
 					(effects
@@ -19535,7 +19661,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 207.0101 180)
+				(at 68.58 156.21 180)
 				(length 2.54)
 				(name "LMU0_DQ46"
 					(effects
@@ -19553,7 +19679,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 184.1498 0)
+				(at -2.54 135.8898 0)
 				(length 2.54)
 				(name "LMU0_BP_ALERT_N"
 					(effects
@@ -19625,7 +19751,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 199.3725 0)
+				(at -2.54 151.1125 0)
 				(length 2.54)
 				(name "LMU0_ODT0"
 					(effects
@@ -19643,7 +19769,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 191.7701 180)
+				(at 68.58 204.47 180)
 				(length 2.54)
 				(name "LMU0_DQ29"
 					(effects
@@ -19661,7 +19787,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5983 181.6194 180)
+				(at 68.5983 237.4994 180)
 				(length 2.54)
 				(name "LMU0_DQ17"
 					(effects
@@ -19679,7 +19805,7 @@
 				)
 			)
 			(pin input line
-				(at 68.58 179.07 180)
+				(at 68.58 234.95 180)
 				(length 2.54)
 				(name "LMU0_DQ18"
 					(effects
@@ -19697,7 +19823,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 204.4701 180)
+				(at 68.58 217.17 180)
 				(length 2.54)
 				(name "LMU0_DQ24"
 					(effects
@@ -19715,7 +19841,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 181.5984 0)
+				(at -2.54 133.3384 0)
 				(length 2.54)
 				(name "LMU0_MEMRESET_L"
 					(effects
@@ -19769,7 +19895,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 194.3101 180)
+				(at 68.58 207.01 180)
 				(length 2.54)
 				(name "LMU0_DQ28"
 					(effects
@@ -19787,7 +19913,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 201.9301 180)
+				(at 68.58 209.55 180)
 				(length 2.54)
 				(name "LMU0_DQ27"
 					(effects
@@ -19805,7 +19931,7 @@
 				)
 			)
 			(pin input line
-				(at -2.5015 87.5019 0)
+				(at 68.58 45.72 180)
 				(length 2.54)
 				(name "LMU0_DQS_T12"
 					(effects
@@ -19823,7 +19949,7 @@
 				)
 			)
 			(pin input line
-				(at -2.4983 135.7533 0)
+				(at -2.54 45.72 0)
 				(length 2.54)
 				(name "LMU0_DQS_C12"
 					(effects
@@ -19841,7 +19967,7 @@
 				)
 			)
 			(pin input line
-				(at -2.4983 158.6358 0)
+				(at -2.54 71.12 0)
 				(length 2.54)
 				(name "LMU0_DQS_C3"
 					(effects
@@ -19859,7 +19985,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 186.6901 180)
+				(at 68.58 199.39 180)
 				(length 2.54)
 				(name "LMU0_DQ31"
 					(effects
@@ -19877,7 +20003,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 189.2301 180)
+				(at 68.58 201.93 180)
 				(length 2.54)
 				(name "LMU0_DQ30"
 					(effects
@@ -19895,7 +20021,7 @@
 				)
 			)
 			(pin input line
-				(at -2.5015 110.3619 0)
+				(at 68.58 71.12 180)
 				(length 2.54)
 				(name "LMU0_DQS_T3"
 					(effects
@@ -19913,7 +20039,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 199.3901 180)
+				(at 68.58 214.63 180)
 				(length 2.54)
 				(name "LMU0_DQ25"
 					(effects
@@ -19931,7 +20057,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5983 196.8616 180)
+				(at 68.5982 212.1015 180)
 				(length 2.54)
 				(name "LMU0_DQ26"
 					(effects
@@ -19949,7 +20075,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 133.3501 180)
+				(at 68.58 275.59 180)
 				(length 2.54)
 				(name "LMU0_DQ4"
 					(effects
@@ -19967,7 +20093,7 @@
 				)
 			)
 			(pin input line
-				(at -2.5015 79.8819 0)
+				(at 68.58 53.34 180)
 				(length 2.54)
 				(name "LMU0_DQS_T9"
 					(effects
@@ -19985,7 +20111,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 143.5101 180)
+				(at 68.58 285.75 180)
 				(length 2.54)
 				(name "LMU0_DQ0"
 					(effects
@@ -20003,7 +20129,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 130.8101 180)
+				(at 68.58 273.05 180)
 				(length 2.54)
 				(name "LMU0_DQ5"
 					(effects
@@ -20021,7 +20147,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 135.8901 180)
+				(at 68.58 283.21 180)
 				(length 2.54)
 				(name "LMU0_DQ1"
 					(effects
@@ -20039,7 +20165,7 @@
 				)
 			)
 			(pin input line
-				(at -2.4469 128.128 0)
+				(at -2.54 53.34 0)
 				(length 2.54)
 				(name "LMU0_DQS_C9"
 					(effects
@@ -20057,7 +20183,7 @@
 				)
 			)
 			(pin input line
-				(at -2.5015 102.7419 0)
+				(at 68.58 78.74 180)
 				(length 2.54)
 				(name "LMU0_DQS_T0"
 					(effects
@@ -20075,7 +20201,7 @@
 				)
 			)
 			(pin input line
-				(at -2.4983 150.9901 0)
+				(at -2.54 78.74 0)
 				(length 2.54)
 				(name "LMU0_DQS_C0"
 					(effects
@@ -20093,9 +20219,9 @@
 				)
 			)
 			(pin input line
-				(at -2.54 173.9725 0)
+				(at -2.54 212.09 0)
 				(length 2.54)
-				(name "NC"
+				(name "NC9/LMU0_BP_VREF"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20111,7 +20237,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 138.4301 180)
+				(at 68.58 278.13 180)
 				(length 2.54)
 				(name "LMU0_DQ3"
 					(effects
@@ -20129,7 +20255,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 128.2701 180)
+				(at 68.58 270.51 180)
 				(length 2.54)
 				(name "LMU0_DQ6"
 					(effects
@@ -20147,7 +20273,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 125.7301 180)
+				(at 68.58 267.97 180)
 				(length 2.54)
 				(name "LMU0_DQ7"
 					(effects
@@ -20165,7 +20291,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 189.2328 0)
+				(at -2.54 140.9728 0)
 				(length 2.54)
 				(name "LMU0_BP_ZN"
 					(effects
@@ -20183,7 +20309,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 140.9701 180)
+				(at 68.58 280.67 180)
 				(length 2.54)
 				(name "LMU0_DQ2"
 					(effects
@@ -20201,7 +20327,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 151.1301 180)
+				(at 68.58 245.11 180)
 				(length 2.54)
 				(name "LMU0_DQ15"
 					(effects
@@ -20219,7 +20345,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 153.6701 180)
+				(at 68.58 252.73 180)
 				(length 2.54)
 				(name "LMU0_DQ12"
 					(effects
@@ -20237,7 +20363,7 @@
 				)
 			)
 			(pin input line
-				(at -2.5015 82.4219 0)
+				(at 68.58 50.8 180)
 				(length 2.54)
 				(name "LMU0_DQS_T10"
 					(effects
@@ -20255,7 +20381,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 161.2901 180)
+				(at 68.58 260.35 180)
 				(length 2.54)
 				(name "LMU0_DQ9"
 					(effects
@@ -20273,7 +20399,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 163.8301 180)
+				(at 68.58 262.89 180)
 				(length 2.54)
 				(name "LMU0_DQ8"
 					(effects
@@ -20291,7 +20417,7 @@
 				)
 			)
 			(pin input line
-				(at -2.4983 130.6744 0)
+				(at -2.54 50.8 0)
 				(length 2.54)
 				(name "LMU0_DQS_C10"
 					(effects
@@ -20309,7 +20435,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 148.5901 180)
+				(at 68.58 250.19 180)
 				(length 2.54)
 				(name "LMU0_DQ13"
 					(effects
@@ -20327,7 +20453,7 @@
 				)
 			)
 			(pin input line
-				(at -2.5015 105.2819 0)
+				(at 68.58 76.2 180)
 				(length 2.54)
 				(name "LMU0_DQS_T1"
 					(effects
@@ -20345,7 +20471,7 @@
 				)
 			)
 			(pin input line
-				(at -2.4983 153.5569 0)
+				(at -2.54 76.2 0)
 				(length 2.54)
 				(name "LMU0_DQS_C1"
 					(effects
@@ -20363,7 +20489,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 156.2101 180)
+				(at 68.58 255.27 180)
 				(length 2.54)
 				(name "LMU0_DQ11"
 					(effects
@@ -20381,7 +20507,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 158.7501 180)
+				(at 68.58 257.81 180)
 				(length 2.54)
 				(name "LMU0_DQ10"
 					(effects
@@ -20399,7 +20525,7 @@
 				)
 			)
 			(pin input line
-				(at 68.5801 146.0501 180)
+				(at 68.58 247.65 180)
 				(length 2.54)
 				(name "LMU0_DQ14"
 					(effects
@@ -20417,7 +20543,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4331 158.6261 180)
+				(at 180.34 255.27 180)
 				(length 2.54)
 				(name "LMU1_DQ11"
 					(effects
@@ -20435,7 +20561,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4331 156.0861 180)
+				(at 180.34 257.81 180)
 				(length 2.54)
 				(name "LMU1_DQ10"
 					(effects
@@ -20453,7 +20579,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 145.9252 180)
+				(at 180.34 247.65 180)
 				(length 2.54)
 				(name "LMU1_DQ14"
 					(effects
@@ -20471,7 +20597,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2617 133.2144 0)
+				(at 109.22 50.8 0)
 				(length 2.54)
 				(name "LMU1_DQS_C10"
 					(effects
@@ -20489,7 +20615,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 148.4652 180)
+				(at 180.34 250.19 180)
 				(length 2.54)
 				(name "LMU1_DQ13"
 					(effects
@@ -20507,7 +20633,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 107.8219 0)
+				(at 180.3785 76.2943 180)
 				(length 2.54)
 				(name "LMU1_DQS_T1"
 					(effects
@@ -20525,7 +20651,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2617 156.0969 0)
+				(at 109.22 76.2 0)
 				(length 2.54)
 				(name "LMU1_DQS_C1"
 					(effects
@@ -20543,7 +20669,7 @@
 				)
 			)
 			(pin input line
-				(at 109.2585 84.9619 0)
+				(at 180.3785 50.8943 180)
 				(length 2.54)
 				(name "LMU1_DQS_T10"
 					(effects
@@ -20561,7 +20687,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 163.7052 180)
+				(at 180.34 262.89 180)
 				(length 2.54)
 				(name "LMU1_DQ8"
 					(effects
@@ -20579,7 +20705,7 @@
 				)
 			)
 			(pin input line
-				(at 180.4074 161.1652 180)
+				(at 180.34 260.35 180)
 				(length 2.54)
 				(name "LMU1_DQ9"
 					(effects
