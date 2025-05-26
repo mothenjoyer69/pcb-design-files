@@ -514,8 +514,8 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
-        "via_diameter": 0.5,
-        "via_drill": 0.3
+        "via_diameter": 0.4572,
+        "via_drill": 0.25
       }
     ],
     "meta": {
@@ -527,6 +527,10 @@
       {
         "netclass": "PCIe 90r",
         "pattern": "FT_PEU*"
+      },
+      {
+        "netclass": "PCIe 90r",
+        "pattern": "*PEU*C*"
       }
     ]
   },
@@ -660,7 +664,7 @@
     ],
     [
       "dc25b55f-0713-4368-afb0-9d7e2dcc62ef",
-      "CLK Block"
+      "Power Block Diagram"
     ],
     [
       "2366b2e4-9a98-4894-9625-fb986ebf14b8",

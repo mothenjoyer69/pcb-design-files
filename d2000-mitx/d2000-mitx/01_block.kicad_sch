@@ -9,7 +9,91 @@
 		(date "2025-05-23")
 		(rev "1.0")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(rectangle
 		(start 152.654 203.454)
 		(end 112.014 218.694)
@@ -89,19 +173,6 @@
 		(uuid 1e3ead5f-0608-412f-8825-0eb2c7c49bc9)
 	)
 	(rectangle
-		(start 36.322 127.254)
-		(end 23.114 204.978)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3c7b7dae-907d-4557-a866-d7a01b1bb134)
-	)
-	(rectangle
 		(start 56.642 127.254)
 		(end 43.434 204.978)
 		(stroke
@@ -154,8 +225,8 @@
 		(uuid 71e0f5be-a586-4dc3-b366-2cdecd70c50d)
 	)
 	(rectangle
-		(start 383.286 218.694)
-		(end 340.614 233.68)
+		(start 340.614 224.282)
+		(end 368.3 236.728)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -246,8 +317,8 @@
 		(uuid a8cad8d8-8d79-48a2-9881-0490ec8cd592)
 	)
 	(rectangle
-		(start 383.286 152.654)
-		(end 343.154 167.64)
+		(start 343.154 152.654)
+		(end 383.286 173.736)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -285,6 +356,19 @@
 		(uuid b8f6c6b7-d73d-437a-bc0a-456975f65a02)
 	)
 	(rectangle
+		(start 70.358 120.65)
+		(end 101.854 135.89)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bca6a639-282e-4312-a69f-bb08782c1f76)
+	)
+	(rectangle
 		(start 236.474 198.374)
 		(end 175.514 221.234)
 		(stroke
@@ -299,7 +383,7 @@
 	)
 	(rectangle
 		(start 70.612 137.824)
-		(end 101.092 153.064)
+		(end 102.362 153.064)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -348,6 +432,19 @@
 			(type none)
 		)
 		(uuid e23a57af-dfcf-4866-8f3e-299fe914f1e3)
+	)
+	(rectangle
+		(start 341.122 210.82)
+		(end 368.808 223.266)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f833f35b-c606-4f35-bf03-2565c2c7cf1f)
 	)
 	(rectangle
 		(start 302.514 73.914)
@@ -524,7 +621,7 @@
 		)
 		(uuid "56b639ad-20d2-4883-a661-4f60cbd023eb")
 	)
-	(text "PCIe Gen3  X2"
+	(text "PCIe Gen3  X4"
 		(exclude_from_sim no)
 		(at 111.252 145.952 0)
 		(effects
@@ -584,9 +681,9 @@
 		)
 		(uuid "6ab42afe-b8ad-4ba0-af61-483b0fa0f80f")
 	)
-	(text "CPLD"
+	(text "RP2040\n(EC duties)"
 		(exclude_from_sim no)
-		(at 193.294 214.122 0)
+		(at 190.246 215.392 0)
 		(effects
 			(font
 				(size 4.064 4.064)
@@ -622,18 +719,6 @@
 			(justify left bottom)
 		)
 		(uuid "78f30ec6-4c77-4791-825a-e8f21d7f2a46")
-	)
-	(text "PCIe Gen3  X4"
-		(exclude_from_sim no)
-		(at 104.394 168.148 0)
-		(effects
-			(font
-				(size 2.667 2.667)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a7c048d-29fd-4f76-afcd-af20cb883b0c")
 	)
 	(text "SD 2.0"
 		(exclude_from_sim no)
@@ -708,6 +793,18 @@
 		)
 		(uuid "aefa0748-e57a-418e-b73b-cbe4587ee1e5")
 	)
+	(text "PCIe Gen3  X4"
+		(exclude_from_sim no)
+		(at 112.522 125.984 0)
+		(effects
+			(font
+				(size 2.667 2.667)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0d9ccf0-844b-426b-b76c-3632bdea5fc5")
+	)
 	(text "PCIe X1"
 		(exclude_from_sim no)
 		(at 244.094 151.638 0)
@@ -771,20 +868,7 @@
 		)
 		(uuid "d4b8f86a-1c72-44a1-a15a-13989a7c7af1")
 	)
-	(text "M.2 PCIe 3.0 4x"
-		(exclude_from_sim no)
-		(at 31.242 184.658 90)
-		(effects
-			(font
-				(size 3.429 3.429)
-				(thickness 0.6858)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "e791e59c-619a-4995-9664-ffe7d146fee1")
-	)
-	(text "PCIe to USB \nVL805"
+	(text "PCIe to USB \nVL805 (Rear)"
 		(exclude_from_sim no)
 		(at 279.654 162.052 0)
 		(effects
@@ -853,7 +937,50 @@
 		)
 		(uuid "38c0c096-c8e8-4175-bb33-a42557e2db18")
 	)
-	(text_box "USB3.0\n(X4)"
+	(text_box "M.2 PCIe 3.0 4x"
+		(exclude_from_sim no)
+		(at 71.882 122.428 0)
+		(size 27.94 11.176)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.667 2.667)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "4c1bf034-5d51-4f58-a7a8-4f89c6a6a9c1")
+	)
+	(text_box "USB to GbE Ethernet"
+		(exclude_from_sim no)
+		(at 341.376 211.328 0)
+		(size 31.496 11.176)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.667 2.667)
+			)
+			(justify left top)
+		)
+		(uuid "656248c0-2410-4eb6-a421-49c932a9873d")
+	)
+	(text_box "2x USB 3.0 Type A\n1x USB 3.0 Type C"
 		(exclude_from_sim no)
 		(at 345.694 155.194 0)
 		(size 35.56 11.176)
@@ -874,7 +1001,28 @@
 		)
 		(uuid "6ab70036-3885-4532-8286-12d74ef216d2")
 	)
-	(text_box "M.2 Wifi"
+	(text_box "2x USB 2.0\nInternal header"
+		(exclude_from_sim no)
+		(at 344.678 250.698 0)
+		(size 31.496 11.176)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.667 2.667)
+			)
+			(justify left top)
+		)
+		(uuid "6ad45cef-4035-4c12-94c3-39a3dbc88061")
+	)
+	(text_box "M.2 PCIe 3.0 4x"
 		(exclude_from_sim no)
 		(at 71.882 139.094 0)
 		(size 27.94 11.176)
@@ -896,9 +1044,9 @@
 		)
 		(uuid "ac2fe77c-db50-48aa-af23-e3b33eaf281c")
 	)
-	(text_box "USB3.0\n(X4)"
+	(text_box "2x USB 3.0\nInternal header"
 		(exclude_from_sim no)
-		(at 343.154 221.234 0)
+		(at 342.392 223.774 0)
 		(size 31.496 11.176)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -919,29 +1067,8 @@
 	)
 	(text_box " USB2.0  CONN\n(X4)"
 		(exclude_from_sim no)
-		(at 381.254 261.62 0)
-		(size -36.83 -11.176)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width -0.0001)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.667 2.667)
-			)
-			(justify left top)
-		)
-		(uuid "c41ff1eb-f06f-483b-ac16-5e4973368d46")
-	)
-	(text_box " USB2.0  CONN\n(X4)"
-		(exclude_from_sim no)
-		(at 382.524 199.39 0)
-		(size -36.83 -11.176)
+		(at 345.694 188.214 0)
+		(size 36.83 11.176)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
@@ -1003,17 +1130,6 @@
 			(color 0 0 255 1)
 		)
 		(uuid "008982ec-81f8-412b-ba20-5ec52497c7f5")
-	)
-	(polyline
-		(pts
-			(xy 157.734 170.434) (xy 155.194 172.974)
-		)
-		(stroke
-			(width 0.762)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(uuid "02aaf6a0-659b-4bfa-a431-8ff917625b76")
 	)
 	(polyline
 		(pts
@@ -1083,6 +1199,17 @@
 	)
 	(polyline
 		(pts
+			(xy 154.686 124.304) (xy 157.226 126.844)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(uuid "09d5deb2-26be-451b-923b-504f7673c525")
+	)
+	(polyline
+		(pts
 			(xy 200.914 178.054) (xy 205.994 172.974)
 		)
 		(stroke
@@ -1146,6 +1273,17 @@
 			(color 0 0 255 1)
 		)
 		(uuid "0dc2e2af-18bd-459e-a09c-840c60b4b9a7")
+	)
+	(polyline
+		(pts
+			(xy 330.708 215.646) (xy 328.168 218.186)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(uuid "0f916c30-9967-479d-a5fb-1b02193026ad")
 	)
 	(polyline
 		(pts
@@ -1234,6 +1372,17 @@
 			(color 0 0 255 1)
 		)
 		(uuid "1cf32389-a00f-4d1b-8df3-5b14db9867be")
+	)
+	(polyline
+		(pts
+			(xy 338.328 215.646) (xy 340.868 218.186)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(uuid "1db45a19-6cc1-4b76-b6e5-1a6939473a61")
 	)
 	(polyline
 		(pts
@@ -1534,17 +1683,6 @@
 	)
 	(polyline
 		(pts
-			(xy 35.814 170.434) (xy 38.354 167.894)
-		)
-		(stroke
-			(width 0.762)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(uuid "55ffa256-9cc0-453f-8dc9-a2ababaf10ef")
-	)
-	(polyline
-		(pts
 			(xy 145.034 99.314) (xy 145.034 81.534)
 		)
 		(stroke
@@ -1611,6 +1749,17 @@
 	)
 	(polyline
 		(pts
+			(xy 157.226 126.844) (xy 154.686 129.384)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(uuid "5b59ff09-77f6-4c6f-b138-144c8e3fb3d7")
+	)
+	(polyline
+		(pts
 			(xy 322.834 160.274) (xy 343.154 160.274)
 		)
 		(stroke
@@ -1633,6 +1782,17 @@
 	)
 	(polyline
 		(pts
+			(xy 102.362 127.254) (xy 104.902 124.714)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(uuid "5efbc76f-4ebe-47e0-8d47-a5abe3cef339")
+	)
+	(polyline
+		(pts
 			(xy 272.034 228.854) (xy 277.114 226.314)
 		)
 		(stroke
@@ -1641,6 +1801,17 @@
 			(color 0 0 255 1)
 		)
 		(uuid "61e781a1-faf7-40c8-9e41-43b8f1806b3d")
+	)
+	(polyline
+		(pts
+			(xy 338.328 220.726) (xy 340.868 218.186)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(uuid "6677e33f-2a4f-456a-b2c2-b9fc49c69ce1")
 	)
 	(polyline
 		(pts
@@ -1663,6 +1834,17 @@
 			(color 0 0 255 1)
 		)
 		(uuid "6740ed38-af15-457a-b538-5b2af80d2fbe")
+	)
+	(polyline
+		(pts
+			(xy 328.168 218.186) (xy 340.868 218.186)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(uuid "67ab1bcb-93da-4014-aa3d-de72d3c27fc4")
 	)
 	(polyline
 		(pts
@@ -1776,17 +1958,6 @@
 	)
 	(polyline
 		(pts
-			(xy 38.354 172.974) (xy 35.814 170.434)
-		)
-		(stroke
-			(width 0.762)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(uuid "7722483a-698d-44e6-a5cd-9e2a45a356a1")
-	)
-	(polyline
-		(pts
 			(xy 327.914 157.734) (xy 322.834 160.274)
 		)
 		(stroke
@@ -1806,6 +1977,17 @@
 			(color 0 0 255 1)
 		)
 		(uuid "781056e9-0735-4eec-aadb-b15a20f6041a")
+	)
+	(polyline
+		(pts
+			(xy 156.464 127.254) (xy 102.362 127.254)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(uuid "79196631-0801-4281-b43b-ac3cf4e7c900")
 	)
 	(polyline
 		(pts
@@ -1927,17 +2109,6 @@
 			(color 0 0 255 1)
 		)
 		(uuid "855e7861-f5fa-4592-b8dc-68f602e457f8")
-	)
-	(polyline
-		(pts
-			(xy 157.734 170.434) (xy 35.814 170.434)
-		)
-		(stroke
-			(width 0.762)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(uuid "86d977fd-1dda-4ede-9ac0-e87d96369cfd")
 	)
 	(polyline
 		(pts
@@ -2249,6 +2420,17 @@
 	)
 	(polyline
 		(pts
+			(xy 328.168 218.186) (xy 330.708 220.726)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(uuid "c530b592-a0b4-4439-9a28-2840f1ac757b")
+	)
+	(polyline
+		(pts
 			(xy 94.234 84.074) (xy 96.774 81.534)
 		)
 		(stroke
@@ -2279,17 +2461,6 @@
 			(color 0 0 255 1)
 		)
 		(uuid "c83abd8b-db50-4d00-91be-08dad4677937")
-	)
-	(polyline
-		(pts
-			(xy 155.194 167.894) (xy 157.734 170.434)
-		)
-		(stroke
-			(width 0.762)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(uuid "caf2ead4-d351-40b6-b58d-19248c92ec63")
 	)
 	(polyline
 		(pts
@@ -2334,6 +2505,17 @@
 			(color 0 0 255 1)
 		)
 		(uuid "d9b58550-4fce-476d-981e-663ce1239865")
+	)
+	(polyline
+		(pts
+			(xy 104.902 129.794) (xy 102.362 127.254)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(uuid "d9e7c471-918d-4669-8f21-373c2bca3528")
 	)
 	(polyline
 		(pts
@@ -2587,5 +2769,389 @@
 			(color 0 0 255 1)
 		)
 		(uuid "ffb1660d-0b89-401a-94c3-278ec0c38c1c")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 66.04 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01d18c92-b8b2-441a-b832-dc93199bad65")
+		(property "Reference" "H4"
+			(at 68.58 245.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 68.58 247.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 66.04 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 66.04 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36/ce8216c6-3d92-48d1-936d-0a25ffd833ca"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 66.04 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72198b9b-b93b-4324-bd86-1bd3e4ed2b9f")
+		(property "Reference" "H6"
+			(at 68.58 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 68.58 257.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 66.04 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 66.04 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36/ce8216c6-3d92-48d1-936d-0a25ffd833ca"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 48.26 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5c0f4f5-4a40-450f-8868-d5e4aec10841")
+		(property "Reference" "H3"
+			(at 50.8 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 50.8 257.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 48.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 48.26 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36/ce8216c6-3d92-48d1-936d-0a25ffd833ca"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 66.04 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c625c7ac-fd43-48d4-8b6e-146132965525")
+		(property "Reference" "H5"
+			(at 68.58 250.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 68.58 252.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 66.04 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 66.04 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36/ce8216c6-3d92-48d1-936d-0a25ffd833ca"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 48.26 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4f5fe85-913b-4ea4-be76-31c0e4ec84bb")
+		(property "Reference" "H2"
+			(at 50.8 250.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 50.8 252.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 48.26 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 48.26 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36/ce8216c6-3d92-48d1-936d-0a25ffd833ca"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 48.26 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2d5a181-d3a4-4158-888f-e0a674fda2e8")
+		(property "Reference" "H1"
+			(at 50.8 245.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 50.8 247.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 48.26 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 48.26 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36/ce8216c6-3d92-48d1-936d-0a25ffd833ca"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
