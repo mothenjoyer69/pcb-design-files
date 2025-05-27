@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 66.04 111.76 0)
+			(at 8.89 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9587,47 +9587,49 @@
 				)
 			)
 		)
-		(symbol "D2000-E8_3_1"
+		(symbol "D2000-E8_3_0"
 			(rectangle
-				(start 0 186.69)
-				(end 57.15 0)
+				(start 49.53 105.41)
+				(end -41.91 -62.23)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+					(color 0 11 255 1)
 				)
 				(fill
 					(type background)
 				)
 			)
-			(text "Serial/Reserved/Other Function Interface"
-				(at 28.448 184.658 0)
+			(text "FLOAT"
+				(at 36.83 -43.434 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 2.032 2.032)
 					)
+					(justify left bottom)
 				)
 			)
-			(pin input line
-				(at -3.81 30.48 0)
-				(length 2.54)
-				(name "UART_3_RXD/SPI1_SO/FT_RSVD18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(text "DOWN"
+				(at 39.37 7.366 0)
+				(effects
+					(font
+						(size 2.032 2.032)
 					)
-				)
-				(number "AF19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+					(justify left bottom)
 				)
 			)
-			(pin input line
-				(at -2.54 182.88 0)
-				(length 2.54)
+			(text "UP"
+				(at 41.91 30.226 0)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left bottom)
+				)
+			)
+			(pin passive line
+				(at -49.53 102.87 0)
+				(length 7.62)
 				(name "CLK_REF"
 					(effects
 						(font
@@ -9643,9 +9645,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 180.34 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 100.33 0)
+				(length 7.62)
 				(name "POR_N"
 					(effects
 						(font
@@ -9661,9 +9663,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 177.8 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 97.79 0)
+				(length 7.62)
 				(name "PWR_CTR0"
 					(effects
 						(font
@@ -9679,9 +9681,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 175.26 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 95.25 0)
+				(length 7.62)
 				(name "PWR_CTR1"
 					(effects
 						(font
@@ -9697,10 +9699,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 172.72 0)
-				(length 2.54)
-				(name "ALL_PLL_LOCK/I2C_1_SDL"
+			(pin passive line
+				(at -49.53 92.71 0)
+				(length 7.62)
+				(name "ALL_PLL_LOCK/I2C_1_SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9715,10 +9717,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 170.18 0)
-				(length 2.54)
-				(name "CRU_CLK_OBV/I2C_1_SDA/GPIO_A0"
+			(pin passive line
+				(at -49.53 90.17 0)
+				(length 7.62)
+				(name "CRU_CLK_OBV/I2C_1_SDA/GPIO0_A0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9733,10 +9735,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 167.64 0)
-				(length 2.54)
-				(name "CPI_RST_OK"
+			(pin passive line
+				(at -49.53 87.63 0)
+				(length 7.62)
+				(name "CRU_RST_OK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9751,10 +9753,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 162.56 0)
-				(length 2.54)
-				(name "FT_RSVD0"
+			(pin passive line
+				(at -49.53 82.55 0)
+				(length 7.62)
+				(name "LPC_CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9769,10 +9771,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 160.02 0)
-				(length 2.54)
-				(name "FT_RSVD1/I2C3_SCL"
+			(pin passive line
+				(at -49.53 80.01 0)
+				(length 7.62)
+				(name "LPC_IRQ_OUTEN/I2C3_SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9787,10 +9789,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 157.48 0)
-				(length 2.54)
-				(name "FT_RSVD2/I2C3_SDA"
+			(pin passive line
+				(at -49.53 77.47 0)
+				(length 7.62)
+				(name "LPC_LAD_OUTEN/I2C3_SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9805,10 +9807,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 154.94 0)
-				(length 2.54)
-				(name "FT_RSVD3"
+			(pin passive line
+				(at -49.53 74.93 0)
+				(length 7.62)
+				(name "LPC_RSTN_O"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9823,10 +9825,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 152.4 0)
-				(length 2.54)
-				(name "FT_RSVD4"
+			(pin passive line
+				(at -49.53 72.39 0)
+				(length 7.62)
+				(name "LPC_LFRAME_N"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9841,10 +9843,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 149.86 0)
-				(length 2.54)
-				(name "FT_RSVD5"
+			(pin passive line
+				(at -49.53 69.85 0)
+				(length 7.62)
+				(name "LPC_IRQ_N"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9859,10 +9861,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 147.32 0)
-				(length 2.54)
-				(name "FT_RSVD6"
+			(pin passive line
+				(at -49.53 67.31 0)
+				(length 7.62)
+				(name "LPC_LDRQ_N"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9877,10 +9879,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 144.78 0)
-				(length 2.54)
-				(name "FT_RSVD7/GPIO1_A3"
+			(pin passive line
+				(at -49.53 64.77 0)
+				(length 7.62)
+				(name "LPC_LAD0/GPIO1_A3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9895,10 +9897,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 142.24 0)
-				(length 2.54)
-				(name "FT_RSVD8/GPIO1_A4"
+			(pin passive line
+				(at -49.53 62.23 0)
+				(length 7.62)
+				(name "LPC_LAD1/GPIO1_A4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9913,10 +9915,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 139.7 0)
-				(length 2.54)
-				(name "FT_RSVD9/SPI1_CSN_3"
+			(pin passive line
+				(at -49.53 59.69 0)
+				(length 7.62)
+				(name "LPC_LAD2/SPI1_CSN3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9931,17 +9933,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 137.16 0)
-				(length 2.54)
-				(name "FT_RSVD10/SPI0_CSN_3"
+			(pin passive line
+				(at -49.53 57.15 0)
+				(length 7.62)
+				(name "LPC_LAD3/SPI0_CSN3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "P27"
+				(number "AD28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9949,10 +9951,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 134.62 0)
-				(length 2.54)
-				(name "FT_RSVD11"
+			(pin passive line
+				(at -49.53 52.07 0)
+				(length 7.62)
+				(name "HDA_SDI0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9967,10 +9969,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 132.08 0)
-				(length 2.54)
-				(name "FT_RSVD12"
+			(pin passive line
+				(at -49.53 49.53 0)
+				(length 7.62)
+				(name "HDA_SDO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9985,10 +9987,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 129.54 0)
-				(length 2.54)
-				(name "FT_RSVD13"
+			(pin passive line
+				(at -49.53 46.99 0)
+				(length 7.62)
+				(name "HDA_BCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10003,10 +10005,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 127 0)
-				(length 2.54)
-				(name "FT_RSVD14"
+			(pin passive line
+				(at -49.53 44.45 0)
+				(length 7.62)
+				(name "HDA_RST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10021,10 +10023,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 124.46 0)
-				(length 2.54)
-				(name "FT_RSVD15"
+			(pin passive line
+				(at -49.53 41.91 0)
+				(length 7.62)
+				(name "HDA_SYNC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10039,9 +10041,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 119.38 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 36.83 0)
+				(length 7.62)
 				(name "CAN_RXD0/SWDITMS_SWJ"
 					(effects
 						(font
@@ -10057,10 +10059,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 116.84 0)
-				(length 2.54)
-				(name "CAN_TX0/PEU1_LINKUP1"
+			(pin passive line
+				(at -49.53 34.29 0)
+				(length 7.62)
+				(name "CAN_TXD0/PEU1_LINKUP1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10075,9 +10077,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 114.3 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 29.21 0)
+				(length 7.62)
 				(name "CAN_RXD1/I2C2_SCL/SWDO_SWJ"
 					(effects
 						(font
@@ -10093,9 +10095,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 111.76 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 26.67 0)
+				(length 7.62)
 				(name "CAN_TXD1/PEU1_LINKUP2/NTRST_SWJ"
 					(effects
 						(font
@@ -10111,9 +10113,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 109.22 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 21.59 0)
+				(length 7.62)
 				(name "CAN_RXD2/I2C2_SDA/TDO_SWJ"
 					(effects
 						(font
@@ -10129,9 +10131,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 106.68 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 19.05 0)
+				(length 7.62)
 				(name "CAN_TXD2/TDI_SWJ"
 					(effects
 						(font
@@ -10147,9 +10149,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 104.14 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 13.97 0)
+				(length 7.62)
 				(name "TCK_SWJ"
 					(effects
 						(font
@@ -10165,207 +10167,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 99.06 0)
-				(length 2.54)
-				(name "SD_DAT3/GPIO1_B6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AF24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 96.52 0)
-				(length 2.54)
-				(name "RSVD31_FLOAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AA28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 93.98 0)
-				(length 2.54)
-				(name "RSVD32_FLOAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AA27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 91.44 0)
-				(length 2.54)
-				(name "PEU0_LINKUP0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "K25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 88.9 0)
-				(length 2.54)
-				(name "PEU0_LINKUP1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "K24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 86.36 0)
-				(length 2.54)
-				(name "PEU0_LINKUP2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 83.82 0)
-				(length 2.54)
-				(name "PEU1_LINKUP0/GPIO0_A7/SCI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AB29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 81.28 0)
-				(length 2.54)
-				(name "SPI0_SCK/GPIO1_A6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AE11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 78.74 0)
-				(length 2.54)
-				(name "SPI0_SO/GPIO1_A7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AF17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 76.2 0)
-				(length 2.54)
-				(name "SPI0_SI/GPIO1_B0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AG15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 73.66 0)
-				(length 2.54)
-				(name "SPI0_CSN0/GPIO1_A5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AF10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 63.5 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 8.89 0)
+				(length 7.62)
 				(name "UART_0_TXD"
 					(effects
 						(font
@@ -10381,9 +10185,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 60.96 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 6.35 0)
+				(length 7.62)
 				(name "UART_0_RXD"
 					(effects
 						(font
@@ -10399,9 +10203,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 58.42 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 3.81 0)
+				(length 7.62)
 				(name "UART_0_DSR_N/GPIO0_A3"
 					(effects
 						(font
@@ -10417,9 +10221,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 55.88 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 1.27 0)
+				(length 7.62)
 				(name "UART_0_RTS_N/GPIO0_A5"
 					(effects
 						(font
@@ -10435,9 +10239,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 53.34 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 -1.27 0)
+				(length 7.62)
 				(name "UART_0_DTR_N/GPIO0_A6"
 					(effects
 						(font
@@ -10453,9 +10257,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 50.8 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 -3.81 0)
+				(length 7.62)
 				(name "UART_0_CTS_N/GPIO0_A1"
 					(effects
 						(font
@@ -10471,9 +10275,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 48.26 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 -6.35 0)
+				(length 7.62)
 				(name "UART_0_RI_N/GPIO0_A4"
 					(effects
 						(font
@@ -10489,9 +10293,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 45.72 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 -8.89 0)
+				(length 7.62)
 				(name "UART_0_DCD_N/GPIO0_A2"
 					(effects
 						(font
@@ -10507,9 +10311,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 43.18 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 -13.97 0)
+				(length 7.62)
 				(name "UART_1_TXD"
 					(effects
 						(font
@@ -10525,9 +10329,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 40.64 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 -16.51 0)
+				(length 7.62)
 				(name "UART_1_RXD"
 					(effects
 						(font
@@ -10543,10 +10347,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 38.1 0)
-				(length 2.54)
-				(name "UART_2_TXD/SPI1_SCK/FT_RSVD16"
+			(pin passive line
+				(at -49.53 -21.59 0)
+				(length 7.62)
+				(name "UART_2_TXD/SPI1_SCK/HDA_SDI1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10561,9 +10365,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 35.56 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 -24.13 0)
+				(length 7.62)
 				(name "UART_2_RXD/SPI1_CSN0/GPIO0_B5"
 					(effects
 						(font
@@ -10579,10 +10383,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 33.02 0)
-				(length 2.54)
-				(name "UART_3_TXD/SPI1_SI/FT_RSVD17"
+			(pin passive line
+				(at -49.53 -29.21 0)
+				(length 7.62)
+				(name "UART_3_TXD/SPI1_SI/HDA_SDI3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10597,9 +10401,27 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 27.94 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 -31.75 0)
+				(length 7.62)
+				(name "UART_3_RXD/SPI1_SO/HDA_SDI2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AF19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -49.53 -39.37 0)
+				(length 7.62)
 				(name "QSPI_CSN0"
 					(effects
 						(font
@@ -10615,9 +10437,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 25.4 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 -41.91 0)
+				(length 7.62)
 				(name "QSPI_CSN1/GPIO1_B7"
 					(effects
 						(font
@@ -10633,9 +10455,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 22.86 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 -44.45 0)
+				(length 7.62)
 				(name "QSPI_CSN2/SPI1_CSN1/GPIO0_B6"
 					(effects
 						(font
@@ -10651,9 +10473,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 20.32 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 -46.99 0)
+				(length 7.62)
 				(name "QSPI_CSN3/SPI1_CSN2/GPIO0_B7"
 					(effects
 						(font
@@ -10669,9 +10491,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 17.78 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 -49.53 0)
+				(length 7.62)
 				(name "QSPI_SCK"
 					(effects
 						(font
@@ -10687,9 +10509,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 15.24 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 -52.07 0)
+				(length 7.62)
 				(name "QSPI_SO_IO0"
 					(effects
 						(font
@@ -10705,9 +10527,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 12.7 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 -54.61 0)
+				(length 7.62)
 				(name "QSPI_SI_IO1"
 					(effects
 						(font
@@ -10723,9 +10545,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 10.16 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 -57.15 0)
+				(length 7.62)
 				(name "QSPI_WP_IO2"
 					(effects
 						(font
@@ -10741,9 +10563,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 7.62 0)
-				(length 2.54)
+			(pin passive line
+				(at -49.53 -59.69 0)
+				(length 7.62)
 				(name "QSPI_HOLD_IO3"
 					(effects
 						(font
@@ -10759,9 +10581,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 182.88 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 97.79 180)
+				(length 7.62)
 				(name "I2C0_SDA"
 					(effects
 						(font
@@ -10777,9 +10599,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 180.34 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 95.25 180)
+				(length 7.62)
 				(name "I2C0_SCL"
 					(effects
 						(font
@@ -10795,9 +10617,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 177.8 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 90.17 180)
+				(length 7.62)
 				(name "SD_DETECT"
 					(effects
 						(font
@@ -10813,9 +10635,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 175.26 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 87.63 180)
+				(length 7.62)
 				(name "SD_CMD/GPIO1_B1"
 					(effects
 						(font
@@ -10831,9 +10653,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 172.72 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 85.09 180)
+				(length 7.62)
 				(name "SD_CLK/GPIO1_B2"
 					(effects
 						(font
@@ -10849,9 +10671,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 170.18 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 82.55 180)
+				(length 7.62)
 				(name "SD_DAT0/GPIO1_B3"
 					(effects
 						(font
@@ -10867,9 +10689,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 165.1 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 80.01 180)
+				(length 7.62)
 				(name "SD_DAT1/GPIO1_B4"
 					(effects
 						(font
@@ -10885,9 +10707,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 162.56 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 77.47 180)
+				(length 7.62)
 				(name "SD_DAT2/GPIO1_B5"
 					(effects
 						(font
@@ -10903,9 +10725,207 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 115.57 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 74.93 180)
+				(length 7.62)
+				(name "SD_DAT3/GPIO1_B6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AF24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 69.85 180)
+				(length 7.62)
+				(name "RSVD31_FLOAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AA28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 67.31 180)
+				(length 7.62)
+				(name "RSVD32_FLOAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AA27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 62.23 180)
+				(length 7.62)
+				(name "PEU0_LINKUP0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 59.69 180)
+				(length 7.62)
+				(name "PEU0_LINKUP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 57.15 180)
+				(length 7.62)
+				(name "PEU0_LINKUP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 49.53 180)
+				(length 7.62)
+				(name "PEU1_LINKUP0/GPIO0_A7/SCI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AB29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 44.45 180)
+				(length 7.62)
+				(name "SPI0_SCK/GPIO1_A6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AE11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 41.91 180)
+				(length 7.62)
+				(name "SPI0_SO/GPIO1_A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AF17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 39.37 180)
+				(length 7.62)
+				(name "SPI0_SI/GPIO1_B0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AG15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 36.83 180)
+				(length 7.62)
+				(name "SPI0_CSN0/GPIO1_A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AF10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 29.21 180)
+				(length 7.62)
 				(name "RSVD0_UP"
 					(effects
 						(font
@@ -10921,9 +10941,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 113.03 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 26.67 180)
+				(length 7.62)
 				(name "RSVD1_UP"
 					(effects
 						(font
@@ -10939,9 +10959,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 110.49 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 24.13 180)
+				(length 7.62)
 				(name "RSVD2_UP"
 					(effects
 						(font
@@ -10957,9 +10977,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 105.41 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 21.59 180)
+				(length 7.62)
 				(name "RSVD3_UP"
 					(effects
 						(font
@@ -10975,9 +10995,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 102.87 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 19.05 180)
+				(length 7.62)
 				(name "RSVD4_UP"
 					(effects
 						(font
@@ -10993,9 +11013,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 100.33 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 16.51 180)
+				(length 7.62)
 				(name "RSVD5_UP"
 					(effects
 						(font
@@ -11011,9 +11031,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 97.79 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 13.97 180)
+				(length 7.62)
 				(name "RSVD6_UP"
 					(effects
 						(font
@@ -11029,9 +11049,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 95.25 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 6.35 180)
+				(length 7.62)
 				(name "RSVD7_DOWN"
 					(effects
 						(font
@@ -11047,9 +11067,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 92.71 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 3.81 180)
+				(length 7.62)
 				(name "RSVD8_DOWN"
 					(effects
 						(font
@@ -11065,9 +11085,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 90.17 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 1.27 180)
+				(length 7.62)
 				(name "RSVD9_DOWN"
 					(effects
 						(font
@@ -11083,9 +11103,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 87.63 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 -1.27 180)
+				(length 7.62)
 				(name "RSVD10_DOWN"
 					(effects
 						(font
@@ -11101,9 +11121,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 85.09 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 -3.81 180)
+				(length 7.62)
 				(name "RSVD11_DOWN"
 					(effects
 						(font
@@ -11119,9 +11139,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 82.55 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 -6.35 180)
+				(length 7.62)
 				(name "RSVD12_DOWN"
 					(effects
 						(font
@@ -11137,9 +11157,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 80.01 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 -8.89 180)
+				(length 7.62)
 				(name "RSVD13_DOWN"
 					(effects
 						(font
@@ -11155,9 +11175,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 77.47 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 -11.43 180)
+				(length 7.62)
 				(name "RSVD14_DOWN"
 					(effects
 						(font
@@ -11173,9 +11193,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 74.93 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 -13.97 180)
+				(length 7.62)
 				(name "RSVD15_DOWN"
 					(effects
 						(font
@@ -11191,9 +11211,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 72.39 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 -16.51 180)
+				(length 7.62)
 				(name "RSVD16_DOWN"
 					(effects
 						(font
@@ -11209,9 +11229,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 69.85 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 -19.05 180)
+				(length 7.62)
 				(name "RSVD17_DOWN"
 					(effects
 						(font
@@ -11227,9 +11247,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 67.31 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 -21.59 180)
+				(length 7.62)
 				(name "RSVD18_DOWN"
 					(effects
 						(font
@@ -11245,9 +11265,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 64.77 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 -24.13 180)
+				(length 7.62)
 				(name "RSVD19_DOWN"
 					(effects
 						(font
@@ -11263,9 +11283,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 62.23 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 -26.67 180)
+				(length 7.62)
 				(name "RSVD20_DOWN"
 					(effects
 						(font
@@ -11281,9 +11301,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 59.69 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 -29.21 180)
+				(length 7.62)
 				(name "RSVD21_DOWN"
 					(effects
 						(font
@@ -11299,9 +11319,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 57.15 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 -31.75 180)
+				(length 7.62)
 				(name "RSVD22_DOWN"
 					(effects
 						(font
@@ -11317,153 +11337,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 59.69 52.07 180)
-				(length 2.54)
-				(name "RSVD24_DOWN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AF21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 59.69 49.53 180)
-				(length 2.54)
-				(name "RSVD25_FLOAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "K27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 59.69 46.99 180)
-				(length 2.54)
-				(name "RSVD26_FLOAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "Y29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 59.69 44.45 180)
-				(length 2.54)
-				(name "RSVD27_FLOAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AC29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 59.69 41.91 180)
-				(length 2.54)
-				(name "RSVD28_FLOAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 59.69 39.37 180)
-				(length 2.54)
-				(name "RSVD29_FLOAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "M29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 59.69 36.83 180)
-				(length 2.54)
-				(name "QSPI_SI_IO1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "Y28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 59.69 34.29 180)
-				(length 2.54)
-				(name "QSPI_WP_IO2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AB28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 54.61 180)
-				(length 2.54)
+			(pin passive line
+				(at 57.15 -34.29 180)
+				(length 7.62)
 				(name "RSVD23_DOWN"
 					(effects
 						(font
@@ -11479,30 +11355,162 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 57.15 -36.83 180)
+				(length 7.62)
+				(name "RSVD24_DOWN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AF21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 -44.45 180)
+				(length 7.62)
+				(name "RSVD25_FLOAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 -46.99 180)
+				(length 7.62)
+				(name "RSVD26_FLOAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "Y29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 -49.53 180)
+				(length 7.62)
+				(name "RSVD27_FLOAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AC29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 -52.07 180)
+				(length 7.62)
+				(name "RSVD28_FLOAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 -54.61 180)
+				(length 7.62)
+				(name "RSVD29_FLOAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
-		(symbol "D2000-E8_4_1"
+		(symbol "D2000-E8_4_0"
+			(polyline
+				(pts
+					(xy 6.35 33.02) (xy 6.35 -15.24)
+				)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 0 11 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
-				(start 30.48 105.41)
-				(end 87.63 69.85)
+				(start 41.91 33.02)
+				(end -26.67 -15.24)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+					(color 0 11 255 1)
 				)
 				(fill
 					(type background)
 				)
 			)
-			(text "RGMII GbE x2"
-				(at 56.134 103.378 0)
+			(text "RGMII 0"
+				(at 2.794 13.95 900)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 2.032 2.032)
 					)
+					(justify left bottom)
 				)
 			)
-			(pin input line
-				(at 27.94 104.14 0)
-				(length 2.54)
+			(text "RGMII 1"
+				(at 10.414 13.95 900)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left bottom)
+				)
+			)
+			(pin passive line
+				(at -34.29 27.94 0)
+				(length 7.62)
 				(name "RGMII0_TXD0"
 					(effects
 						(font
@@ -11518,9 +11526,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 27.94 101.6 0)
-				(length 2.54)
+			(pin passive line
+				(at -34.29 25.4 0)
+				(length 7.62)
 				(name "RGMII0_TXD1"
 					(effects
 						(font
@@ -11536,9 +11544,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 27.94 99.06 0)
-				(length 2.54)
+			(pin passive line
+				(at -34.29 22.86 0)
+				(length 7.62)
 				(name "RGMII0_TXD2"
 					(effects
 						(font
@@ -11554,9 +11562,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 27.94 96.52 0)
-				(length 2.54)
+			(pin passive line
+				(at -34.29 20.32 0)
+				(length 7.62)
 				(name "RGMII0_TXD3"
 					(effects
 						(font
@@ -11572,9 +11580,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 27.94 93.98 0)
-				(length 2.54)
+			(pin passive line
+				(at -34.29 17.78 0)
+				(length 7.62)
 				(name "RGMII0_GTX_CLK"
 					(effects
 						(font
@@ -11590,9 +11598,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 27.94 91.44 0)
-				(length 2.54)
+			(pin passive line
+				(at -34.29 15.24 0)
+				(length 7.62)
 				(name "RGMII0_TX_CTL"
 					(effects
 						(font
@@ -11608,9 +11616,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 27.94 88.9 0)
-				(length 2.54)
+			(pin passive line
+				(at -34.29 10.16 0)
+				(length 7.62)
 				(name "RGMII0_RXD0"
 					(effects
 						(font
@@ -11618,7 +11626,7 @@
 						)
 					)
 				)
-				(number "J12"
+				(number "K12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11626,9 +11634,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 27.94 86.36 0)
-				(length 2.54)
+			(pin passive line
+				(at -34.29 7.62 0)
+				(length 7.62)
 				(name "RGMII0_RXD1"
 					(effects
 						(font
@@ -11644,9 +11652,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 27.94 83.82 0)
-				(length 2.54)
+			(pin passive line
+				(at -34.29 5.08 0)
+				(length 7.62)
 				(name "RGMII0_RXD2"
 					(effects
 						(font
@@ -11662,9 +11670,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 27.94 81.28 0)
-				(length 2.54)
+			(pin passive line
+				(at -34.29 2.54 0)
+				(length 7.62)
 				(name "RGMII0_RXD3"
 					(effects
 						(font
@@ -11680,9 +11688,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 27.94 78.74 0)
-				(length 2.54)
+			(pin passive line
+				(at -34.29 0 0)
+				(length 7.62)
 				(name "RGMII0_RX_CLK"
 					(effects
 						(font
@@ -11698,9 +11706,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 27.94 76.2 0)
-				(length 2.54)
+			(pin passive line
+				(at -34.29 -2.54 0)
+				(length 7.62)
 				(name "RGMII0_RX_CTL"
 					(effects
 						(font
@@ -11716,9 +11724,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 27.94 73.66 0)
-				(length 2.54)
+			(pin passive line
+				(at -34.29 -7.62 0)
+				(length 7.62)
 				(name "RGMII0_MDC"
 					(effects
 						(font
@@ -11734,9 +11742,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 27.94 71.12 0)
-				(length 2.54)
+			(pin passive line
+				(at -34.29 -10.16 0)
+				(length 7.62)
 				(name "RGMII0_MDIO"
 					(effects
 						(font
@@ -11752,9 +11760,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 90.17 104.14 180)
-				(length 2.54)
+			(pin passive line
+				(at 49.53 27.94 180)
+				(length 7.62)
 				(name "RGMII1_TXD0/GPIO1_A2"
 					(effects
 						(font
@@ -11770,9 +11778,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 90.17 101.6 180)
-				(length 2.54)
+			(pin passive line
+				(at 49.53 25.4 180)
+				(length 7.62)
 				(name "RGMII1_TXD1/SPI0_CSN1"
 					(effects
 						(font
@@ -11788,9 +11796,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 90.17 99.06 180)
-				(length 2.54)
+			(pin passive line
+				(at 49.53 22.86 180)
+				(length 7.62)
 				(name "RGMII1_TXD2/SPI0_CSN2"
 					(effects
 						(font
@@ -11806,9 +11814,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 90.17 96.52 180)
-				(length 2.54)
+			(pin passive line
+				(at 49.53 20.32 180)
+				(length 7.62)
 				(name "RGMII1_TXD3/GPIO0_B3"
 					(effects
 						(font
@@ -11824,9 +11832,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 90.17 93.98 180)
-				(length 2.54)
+			(pin passive line
+				(at 49.53 17.78 180)
+				(length 7.62)
 				(name "RGMII1_GTX_CLK"
 					(effects
 						(font
@@ -11834,7 +11842,7 @@
 						)
 					)
 				)
-				(number "L10"
+				(number "L11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11842,9 +11850,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 90.17 91.44 180)
-				(length 2.54)
+			(pin passive line
+				(at 49.53 15.24 180)
+				(length 7.62)
 				(name "RGMII1_TX_CTL/GPIO0_B4"
 					(effects
 						(font
@@ -11860,9 +11868,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 90.17 88.9 180)
-				(length 2.54)
+			(pin passive line
+				(at 49.53 10.16 180)
+				(length 7.62)
 				(name "RGMII1_RXD0/GPIO0_B0"
 					(effects
 						(font
@@ -11878,9 +11886,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 90.17 86.36 180)
-				(length 2.54)
+			(pin passive line
+				(at 49.53 7.62 180)
+				(length 7.62)
 				(name "RGMII1_RXD1/GPIO0_B1"
 					(effects
 						(font
@@ -11896,9 +11904,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 90.17 83.82 180)
-				(length 2.54)
+			(pin passive line
+				(at 49.53 5.08 180)
+				(length 7.62)
 				(name "RGMII1_RXD2/GPIO0_B2"
 					(effects
 						(font
@@ -11914,9 +11922,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 90.17 81.28 180)
-				(length 2.54)
+			(pin passive line
+				(at 49.53 2.54 180)
+				(length 7.62)
 				(name "RGMII1_RXD3/GPIO1_A0"
 					(effects
 						(font
@@ -11932,9 +11940,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 90.17 78.74 180)
-				(length 2.54)
+			(pin passive line
+				(at 49.53 0 180)
+				(length 7.62)
 				(name "RGMII1_RX_CLK"
 					(effects
 						(font
@@ -11950,9 +11958,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 90.17 76.2 180)
-				(length 2.54)
+			(pin passive line
+				(at 49.53 -2.54 180)
+				(length 7.62)
 				(name "RGMII1_RX_CTL/GPIO1_A1"
 					(effects
 						(font
@@ -11968,9 +11976,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 90.17 73.66 180)
-				(length 2.54)
+			(pin passive line
+				(at 49.53 -7.62 180)
+				(length 7.62)
 				(name "RGMII1_MDC"
 					(effects
 						(font
@@ -11986,10 +11994,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 90.17 71.12 180)
-				(length 2.54)
-				(name "RGMII9_MDIO"
+			(pin passive line
+				(at 49.53 -10.16 180)
+				(length 7.62)
+				(name "RGMII1_MDIO"
 					(effects
 						(font
 							(size 1.27 1.27)
